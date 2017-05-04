@@ -42,7 +42,7 @@ namespace PassiveBee
             get
             {
                 //Return a string identifying you or your company.
-                return "";
+                return "Mingbo Peng";
             }
         }
         public override string AuthorContact
@@ -50,7 +50,7 @@ namespace PassiveBee
             get
             {
                 //Return a string representing your preferred contact details.
-                return "";
+                return "mpen@mpenDesign.com";
             }
         }
     }

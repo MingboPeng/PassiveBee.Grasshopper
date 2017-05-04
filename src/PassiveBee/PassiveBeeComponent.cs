@@ -27,6 +27,8 @@ namespace PassiveBee
         /// </summary>
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
         {
+            pManager.AddBrepParameter("Surfaces", "Srfs","Envelope surfaces",GH_ParamAccess.list);
+            pManager[0].DataMapping = GH_DataMapping.Flatten;
         }
 
         /// <summary>
@@ -34,6 +36,7 @@ namespace PassiveBee
         /// </summary>
         protected override void RegisterOutputParams(GH_Component.GH_OutputParamManager pManager)
         {
+            pManager.AddTextParameter("out", "out", "out", GH_ParamAccess.item);
         }
 
         /// <summary>
@@ -43,6 +46,9 @@ namespace PassiveBee
         /// to store data in output parameters.</param>
         protected override void SolveInstance(IGH_DataAccess DA)
         {
+
+            DA.SetData(0,"PassiveBee");
+
         }
 
         /// <summary>
