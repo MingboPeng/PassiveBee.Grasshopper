@@ -1,0 +1,2238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WUFIplusProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataVersion>41</DataVersion>
+  <UnitSystem>1</UnitSystem>
+  <Scope>3</Scope>
+  <DimensionsVisualizedGeometry>2</DimensionsVisualizedGeometry>
+  <ProjectData>
+    <Customer_Name />
+    <Customer_Locality />
+    <Customer_PostalCode />
+    <Customer_Street />
+    <Customer_Tel />
+    <Customer_Email />
+    <Building_Name />
+    <Year_Construction />
+    <Building_Locality />
+    <Building_PostalCode />
+    <Building_Street />
+    <OwnerIsClient>false</OwnerIsClient>
+    <Owner_Name />
+    <Owner_Locality />
+    <Owner_PostalCode />
+    <Owner_Street />
+    <Responsible_Name />
+    <Responsible_Locality />
+    <Responsible_PostalCode />
+    <Responsible_Street />
+    <Responsible_Tel />
+    <Responsible_LicenseNr />
+    <Responsible_Email />
+    <Date_Project>
+      <Year>2014</Year>
+      <Month>12</Month>
+      <Day>10</Day>
+      <Hour>0</Hour>
+      <Minutes>0</Minutes>
+    </Date_Project>
+    <WhiteBackgroundPictureBuilding>true</WhiteBackgroundPictureBuilding>
+  </ProjectData>
+  <Assemblies count="3">
+    <Assembly index="0">
+      <IdentNr>1</IdentNr>
+      <IDNr_DB>0</IDNr_DB>
+      <Name>Exterior Wall</Name>
+      <Order_Layers choice="from outside to inside">2</Order_Layers>
+      <Grid_Kind choice="Medium">2</Grid_Kind>
+      <Layers count="5">
+        <Layer index="0">
+          <Thickness unit="m">0.1016</Thickness>
+          <Material>
+            <IDNr_DB>0</IDNr_DB>
+            <Name>M01 100mm brick</Name>
+            <ThermalConductivity unit="">0.89</ThermalConductivity>
+            <BulkDensity unit="">1920</BulkDensity>
+            <Porosity unit="">5</Porosity>
+            <HeatCapacity unit="">790</HeatCapacity>
+            <WaterVaporResistance unit="">10</WaterVaporResistance>
+            <ReferenceWaterContent unit="">0</ReferenceWaterContent>
+            <FreeWaterSaturation unit="">0</FreeWaterSaturation>
+            <WaterAbsorptionCoefficient unit="">0</WaterAbsorptionCoefficient>
+            <MoistureSupplement unit="">0</MoistureSupplement>
+            <TypicalMoisture unit="">0</TypicalMoisture>
+            <Color>
+              <Alpha>255</Alpha>
+              <Red>128</Red>
+              <Green>128</Green>
+              <Blue>128</Blue>
+            </Color>
+            <Use_MoistureStorageFunction_Generated>false</Use_MoistureStorageFunction_Generated>
+            <Use_LiquidTransportCoefficientSuction_Generated>false</Use_LiquidTransportCoefficientSuction_Generated>
+            <Use_LiquidTransportCoefficientRedistribution_Generated>false</Use_LiquidTransportCoefficientRedistribution_Generated>
+            <Use_ThermalConductivityMoistureDependent_Generated>false</Use_ThermalConductivityMoistureDependent_Generated>
+          </Material>
+        </Layer>
+        <Layer index="1">
+          <Thickness unit="m">0.2032</Thickness>
+          <Material>
+            <IDNr_DB>0</IDNr_DB>
+            <Name>M15 200mm heavyweight concrete</Name>
+            <ThermalConductivity unit="">1.95</ThermalConductivity>
+            <BulkDensity unit="">2240</BulkDensity>
+            <Porosity unit="">5</Porosity>
+            <HeatCapacity unit="">900</HeatCapacity>
+            <WaterVaporResistance unit="">10</WaterVaporResistance>
+            <ReferenceWaterContent unit="">0</ReferenceWaterContent>
+            <FreeWaterSaturation unit="">0</FreeWaterSaturation>
+            <WaterAbsorptionCoefficient unit="">0</WaterAbsorptionCoefficient>
+            <MoistureSupplement unit="">0</MoistureSupplement>
+            <TypicalMoisture unit="">0</TypicalMoisture>
+            <Color>
+              <Alpha>255</Alpha>
+              <Red>128</Red>
+              <Green>128</Green>
+              <Blue>128</Blue>
+            </Color>
+            <Use_MoistureStorageFunction_Generated>false</Use_MoistureStorageFunction_Generated>
+            <Use_LiquidTransportCoefficientSuction_Generated>false</Use_LiquidTransportCoefficientSuction_Generated>
+            <Use_LiquidTransportCoefficientRedistribution_Generated>false</Use_LiquidTransportCoefficientRedistribution_Generated>
+            <Use_ThermalConductivityMoistureDependent_Generated>false</Use_ThermalConductivityMoistureDependent_Generated>
+          </Material>
+        </Layer>
+        <Layer index="2">
+          <Thickness unit="m">0.0508</Thickness>
+          <Material>
+            <IDNr_DB>0</IDNr_DB>
+            <Name>I02 50mm insulation board</Name>
+            <ThermalConductivity unit="">0.03</ThermalConductivity>
+            <BulkDensity unit="">43</BulkDensity>
+            <Porosity unit="">5</Porosity>
+            <HeatCapacity unit="">1210</HeatCapacity>
+            <WaterVaporResistance unit="">10</WaterVaporResistance>
+            <ReferenceWaterContent unit="">0</ReferenceWaterContent>
+            <FreeWaterSaturation unit="">0</FreeWaterSaturation>
+            <WaterAbsorptionCoefficient unit="">0</WaterAbsorptionCoefficient>
+            <MoistureSupplement unit="">0</MoistureSupplement>
+            <TypicalMoisture unit="">0</TypicalMoisture>
+            <Color>
+              <Alpha>255</Alpha>
+              <Red>128</Red>
+              <Green>128</Green>
+              <Blue>128</Blue>
+            </Color>
+            <Use_MoistureStorageFunction_Generated>false</Use_MoistureStorageFunction_Generated>
+            <Use_LiquidTransportCoefficientSuction_Generated>false</Use_LiquidTransportCoefficientSuction_Generated>
+            <Use_LiquidTransportCoefficientRedistribution_Generated>false</Use_LiquidTransportCoefficientRedistribution_Generated>
+            <Use_ThermalConductivityMoistureDependent_Generated>false</Use_ThermalConductivityMoistureDependent_Generated>
+          </Material>
+        </Layer>
+        <Layer index="3">
+          <Thickness unit="m">0.1</Thickness>
+          <Material>
+            <IDNr_DB>0</IDNr_DB>
+            <Name>Material Air Gap 1 (generated from R-value)</Name>
+            <ThermalConductivity unit="">0.66666666666666674</ThermalConductivity>
+            <BulkDensity unit="">100</BulkDensity>
+            <Porosity unit="">5</Porosity>
+            <HeatCapacity unit="">10</HeatCapacity>
+            <WaterVaporResistance unit="">10</WaterVaporResistance>
+            <ReferenceWaterContent unit="">0</ReferenceWaterContent>
+            <FreeWaterSaturation unit="">0</FreeWaterSaturation>
+            <WaterAbsorptionCoefficient unit="">0</WaterAbsorptionCoefficient>
+            <MoistureSupplement unit="">0</MoistureSupplement>
+            <TypicalMoisture unit="">0</TypicalMoisture>
+            <Color>
+              <Alpha>255</Alpha>
+              <Red>128</Red>
+              <Green>128</Green>
+              <Blue>128</Blue>
+            </Color>
+            <Use_MoistureStorageFunction_Generated>false</Use_MoistureStorageFunction_Generated>
+            <Use_LiquidTransportCoefficientSuction_Generated>false</Use_LiquidTransportCoefficientSuction_Generated>
+            <Use_LiquidTransportCoefficientRedistribution_Generated>false</Use_LiquidTransportCoefficientRedistribution_Generated>
+            <Use_ThermalConductivityMoistureDependent_Generated>false</Use_ThermalConductivityMoistureDependent_Generated>
+          </Material>
+        </Layer>
+        <Layer index="4">
+          <Thickness unit="m">0.019</Thickness>
+          <Material>
+            <IDNr_DB>0</IDNr_DB>
+            <Name>G01a 19mm gypsum board</Name>
+            <ThermalConductivity unit="">0.16</ThermalConductivity>
+            <BulkDensity unit="">800</BulkDensity>
+            <Porosity unit="">5</Porosity>
+            <HeatCapacity unit="">1090</HeatCapacity>
+            <WaterVaporResistance unit="">10</WaterVaporResistance>
+            <ReferenceWaterContent unit="">0</ReferenceWaterContent>
+            <FreeWaterSaturation unit="">0</FreeWaterSaturation>
+            <WaterAbsorptionCoefficient unit="">0</WaterAbsorptionCoefficient>
+            <MoistureSupplement unit="">0</MoistureSupplement>
+            <TypicalMoisture unit="">0</TypicalMoisture>
+            <Color>
+              <Alpha>255</Alpha>
+              <Red>128</Red>
+              <Green>128</Green>
+              <Blue>128</Blue>
+            </Color>
+            <Use_MoistureStorageFunction_Generated>false</Use_MoistureStorageFunction_Generated>
+            <Use_LiquidTransportCoefficientSuction_Generated>false</Use_LiquidTransportCoefficientSuction_Generated>
+            <Use_LiquidTransportCoefficientRedistribution_Generated>false</Use_LiquidTransportCoefficientRedistribution_Generated>
+            <Use_ThermalConductivityMoistureDependent_Generated>false</Use_ThermalConductivityMoistureDependent_Generated>
+          </Material>
+        </Layer>
+      </Layers>
+    </Assembly>
+    <Assembly index="1">
+      <IdentNr>2</IdentNr>
+      <IDNr_DB>0</IDNr_DB>
+      <Name>Interior Floor</Name>
+      <Order_Layers choice="from outside to inside">2</Order_Layers>
+      <Grid_Kind choice="Medium">2</Grid_Kind>
+      <Layers count="3">
+        <Layer index="0">
+          <Thickness unit="m">0.0191</Thickness>
+          <Material>
+            <IDNr_DB>0</IDNr_DB>
+            <Name>F16 Acoustic tile</Name>
+            <ThermalConductivity unit="">0.06</ThermalConductivity>
+            <BulkDensity unit="">368</BulkDensity>
+            <Porosity unit="">5</Porosity>
+            <HeatCapacity unit="">590</HeatCapacity>
+            <WaterVaporResistance unit="">10</WaterVaporResistance>
+            <ReferenceWaterContent unit="">0</ReferenceWaterContent>
+            <FreeWaterSaturation unit="">0</FreeWaterSaturation>
+            <WaterAbsorptionCoefficient unit="">0</WaterAbsorptionCoefficient>
+            <MoistureSupplement unit="">0</MoistureSupplement>
+            <TypicalMoisture unit="">0</TypicalMoisture>
+            <Color>
+              <Alpha>255</Alpha>
+              <Red>128</Red>
+              <Green>128</Green>
+              <Blue>128</Blue>
+            </Color>
+            <Use_MoistureStorageFunction_Generated>false</Use_MoistureStorageFunction_Generated>
+            <Use_LiquidTransportCoefficientSuction_Generated>false</Use_LiquidTransportCoefficientSuction_Generated>
+            <Use_LiquidTransportCoefficientRedistribution_Generated>false</Use_LiquidTransportCoefficientRedistribution_Generated>
+            <Use_ThermalConductivityMoistureDependent_Generated>false</Use_ThermalConductivityMoistureDependent_Generated>
+          </Material>
+        </Layer>
+        <Layer index="1">
+          <Thickness unit="m">0.1</Thickness>
+          <Material>
+            <IDNr_DB>0</IDNr_DB>
+            <Name>Material Air Gap 2 (generated from R-value)</Name>
+            <ThermalConductivity unit="">0.55555555555555558</ThermalConductivity>
+            <BulkDensity unit="">100</BulkDensity>
+            <Porosity unit="">5</Porosity>
+            <HeatCapacity unit="">10</HeatCapacity>
+            <WaterVaporResistance unit="">10</WaterVaporResistance>
+            <ReferenceWaterContent unit="">0</ReferenceWaterContent>
+            <FreeWaterSaturation unit="">0</FreeWaterSaturation>
+            <WaterAbsorptionCoefficient unit="">0</WaterAbsorptionCoefficient>
+            <MoistureSupplement unit="">0</MoistureSupplement>
+            <TypicalMoisture unit="">0</TypicalMoisture>
+            <Color>
+              <Alpha>255</Alpha>
+              <Red>128</Red>
+              <Green>128</Green>
+              <Blue>128</Blue>
+            </Color>
+            <Use_MoistureStorageFunction_Generated>false</Use_MoistureStorageFunction_Generated>
+            <Use_LiquidTransportCoefficientSuction_Generated>false</Use_LiquidTransportCoefficientSuction_Generated>
+            <Use_LiquidTransportCoefficientRedistribution_Generated>false</Use_LiquidTransportCoefficientRedistribution_Generated>
+            <Use_ThermalConductivityMoistureDependent_Generated>false</Use_ThermalConductivityMoistureDependent_Generated>
+          </Material>
+        </Layer>
+        <Layer index="2">
+          <Thickness unit="m">0.1016</Thickness>
+          <Material>
+            <IDNr_DB>0</IDNr_DB>
+            <Name>M11 100mm lightweight concrete</Name>
+            <ThermalConductivity unit="">0.53</ThermalConductivity>
+            <BulkDensity unit="">1280</BulkDensity>
+            <Porosity unit="">5</Porosity>
+            <HeatCapacity unit="">840</HeatCapacity>
+            <WaterVaporResistance unit="">10</WaterVaporResistance>
+            <ReferenceWaterContent unit="">0</ReferenceWaterContent>
+            <FreeWaterSaturation unit="">0</FreeWaterSaturation>
+            <WaterAbsorptionCoefficient unit="">0</WaterAbsorptionCoefficient>
+            <MoistureSupplement unit="">0</MoistureSupplement>
+            <TypicalMoisture unit="">0</TypicalMoisture>
+            <Color>
+              <Alpha>255</Alpha>
+              <Red>128</Red>
+              <Green>128</Green>
+              <Blue>128</Blue>
+            </Color>
+            <Use_MoistureStorageFunction_Generated>false</Use_MoistureStorageFunction_Generated>
+            <Use_LiquidTransportCoefficientSuction_Generated>false</Use_LiquidTransportCoefficientSuction_Generated>
+            <Use_LiquidTransportCoefficientRedistribution_Generated>false</Use_LiquidTransportCoefficientRedistribution_Generated>
+            <Use_ThermalConductivityMoistureDependent_Generated>false</Use_ThermalConductivityMoistureDependent_Generated>
+          </Material>
+        </Layer>
+      </Layers>
+    </Assembly>
+    <Assembly index="2">
+      <IdentNr>3</IdentNr>
+      <IDNr_DB>0</IDNr_DB>
+      <Name>Exterior Roof</Name>
+      <Order_Layers choice="from outside to inside">2</Order_Layers>
+      <Grid_Kind choice="Medium">2</Grid_Kind>
+      <Layers count="3">
+        <Layer index="0">
+          <Thickness unit="m">0.1016</Thickness>
+          <Material>
+            <IDNr_DB>0</IDNr_DB>
+            <Name>M11 100mm lightweight concrete</Name>
+            <ThermalConductivity unit="">0.53</ThermalConductivity>
+            <BulkDensity unit="">1280</BulkDensity>
+            <Porosity unit="">5</Porosity>
+            <HeatCapacity unit="">840</HeatCapacity>
+            <WaterVaporResistance unit="">10</WaterVaporResistance>
+            <ReferenceWaterContent unit="">0</ReferenceWaterContent>
+            <FreeWaterSaturation unit="">0</FreeWaterSaturation>
+            <WaterAbsorptionCoefficient unit="">0</WaterAbsorptionCoefficient>
+            <MoistureSupplement unit="">0</MoistureSupplement>
+            <TypicalMoisture unit="">0</TypicalMoisture>
+            <Color>
+              <Alpha>255</Alpha>
+              <Red>128</Red>
+              <Green>128</Green>
+              <Blue>128</Blue>
+            </Color>
+            <Use_MoistureStorageFunction_Generated>false</Use_MoistureStorageFunction_Generated>
+            <Use_LiquidTransportCoefficientSuction_Generated>false</Use_LiquidTransportCoefficientSuction_Generated>
+            <Use_LiquidTransportCoefficientRedistribution_Generated>false</Use_LiquidTransportCoefficientRedistribution_Generated>
+            <Use_ThermalConductivityMoistureDependent_Generated>false</Use_ThermalConductivityMoistureDependent_Generated>
+          </Material>
+        </Layer>
+        <Layer index="1">
+          <Thickness unit="m">0.1</Thickness>
+          <Material>
+            <IDNr_DB>0</IDNr_DB>
+            <Name>Material Air Gap 2 (generated from R-value)</Name>
+            <ThermalConductivity unit="">0.55555555555555558</ThermalConductivity>
+            <BulkDensity unit="">100</BulkDensity>
+            <Porosity unit="">5</Porosity>
+            <HeatCapacity unit="">10</HeatCapacity>
+            <WaterVaporResistance unit="">10</WaterVaporResistance>
+            <ReferenceWaterContent unit="">0</ReferenceWaterContent>
+            <FreeWaterSaturation unit="">0</FreeWaterSaturation>
+            <WaterAbsorptionCoefficient unit="">0</WaterAbsorptionCoefficient>
+            <MoistureSupplement unit="">0</MoistureSupplement>
+            <TypicalMoisture unit="">0</TypicalMoisture>
+            <Color>
+              <Alpha>255</Alpha>
+              <Red>128</Red>
+              <Green>128</Green>
+              <Blue>128</Blue>
+            </Color>
+            <Use_MoistureStorageFunction_Generated>false</Use_MoistureStorageFunction_Generated>
+            <Use_LiquidTransportCoefficientSuction_Generated>false</Use_LiquidTransportCoefficientSuction_Generated>
+            <Use_LiquidTransportCoefficientRedistribution_Generated>false</Use_LiquidTransportCoefficientRedistribution_Generated>
+            <Use_ThermalConductivityMoistureDependent_Generated>false</Use_ThermalConductivityMoistureDependent_Generated>
+          </Material>
+        </Layer>
+        <Layer index="2">
+          <Thickness unit="m">0.0191</Thickness>
+          <Material>
+            <IDNr_DB>0</IDNr_DB>
+            <Name>F16 Acoustic tile</Name>
+            <ThermalConductivity unit="">0.06</ThermalConductivity>
+            <BulkDensity unit="">368</BulkDensity>
+            <Porosity unit="">5</Porosity>
+            <HeatCapacity unit="">590</HeatCapacity>
+            <WaterVaporResistance unit="">10</WaterVaporResistance>
+            <ReferenceWaterContent unit="">0</ReferenceWaterContent>
+            <FreeWaterSaturation unit="">0</FreeWaterSaturation>
+            <WaterAbsorptionCoefficient unit="">0</WaterAbsorptionCoefficient>
+            <MoistureSupplement unit="">0</MoistureSupplement>
+            <TypicalMoisture unit="">0</TypicalMoisture>
+            <Color>
+              <Alpha>255</Alpha>
+              <Red>128</Red>
+              <Green>128</Green>
+              <Blue>128</Blue>
+            </Color>
+            <Use_MoistureStorageFunction_Generated>false</Use_MoistureStorageFunction_Generated>
+            <Use_LiquidTransportCoefficientSuction_Generated>false</Use_LiquidTransportCoefficientSuction_Generated>
+            <Use_LiquidTransportCoefficientRedistribution_Generated>false</Use_LiquidTransportCoefficientRedistribution_Generated>
+            <Use_ThermalConductivityMoistureDependent_Generated>false</Use_ThermalConductivityMoistureDependent_Generated>
+          </Material>
+        </Layer>
+      </Layers>
+    </Assembly>
+  </Assemblies>
+  <WindowTypes count="1">
+    <WindowType index="0">
+      <IdentNr>1</IdentNr>
+      <IDNr_DB>0</IDNr_DB>
+      <Name>Exterior Window</Name>
+      <SHGC_Detailed>false</SHGC_Detailed>
+      <Uw_Detailed>false</Uw_Detailed>
+    </WindowType>
+  </WindowTypes>
+  <LastDataHeatLossCalculation_PerMeterPipe>
+    <NominalDiameter />
+    <InsulationThickness />
+    <ThermalConductivity />
+    <isReflective>false</isReflective>
+  </LastDataHeatLossCalculation_PerMeterPipe>
+  <Variants count="1">
+    <Varaint index="0">
+      <IdentNr>1</IdentNr>
+      <Name />
+      <Remarks />
+      <RelativeVariant>false</RelativeVariant>
+      <Graphics_3D unit="m">
+        <Vertices count="80">
+          <Vertix index="0">
+            <X>0</X>
+            <Y>8</Y>
+            <Z>3</Z>
+            <IdentNr>1</IdentNr>
+          </Vertix>
+          <Vertix index="1">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>3</Z>
+            <IdentNr>2</IdentNr>
+          </Vertix>
+          <Vertix index="2">
+            <X>10</X>
+            <Y>0</Y>
+            <Z>3</Z>
+            <IdentNr>3</IdentNr>
+          </Vertix>
+          <Vertix index="3">
+            <X>10</X>
+            <Y>8</Y>
+            <Z>3</Z>
+            <IdentNr>4</IdentNr>
+          </Vertix>
+          <Vertix index="4">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <IdentNr>5</IdentNr>
+          </Vertix>
+          <Vertix index="5">
+            <X>10</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <IdentNr>6</IdentNr>
+          </Vertix>
+          <Vertix index="6">
+            <X>8.1</X>
+            <Y>0</Y>
+            <Z>2.8</Z>
+            <IdentNr>7</IdentNr>
+          </Vertix>
+          <Vertix index="7">
+            <X>8.1</X>
+            <Y>0</Y>
+            <Z>0.8</Z>
+            <IdentNr>8</IdentNr>
+          </Vertix>
+          <Vertix index="8">
+            <X>9.9</X>
+            <Y>0</Y>
+            <Z>0.8</Z>
+            <IdentNr>9</IdentNr>
+          </Vertix>
+          <Vertix index="9">
+            <X>9.9</X>
+            <Y>0</Y>
+            <Z>2.8</Z>
+            <IdentNr>10</IdentNr>
+          </Vertix>
+          <Vertix index="10">
+            <X>6.1</X>
+            <Y>0</Y>
+            <Z>2.8</Z>
+            <IdentNr>11</IdentNr>
+          </Vertix>
+          <Vertix index="11">
+            <X>6.1</X>
+            <Y>0</Y>
+            <Z>0.8</Z>
+            <IdentNr>12</IdentNr>
+          </Vertix>
+          <Vertix index="12">
+            <X>7.9</X>
+            <Y>0</Y>
+            <Z>0.8</Z>
+            <IdentNr>13</IdentNr>
+          </Vertix>
+          <Vertix index="13">
+            <X>7.9</X>
+            <Y>0</Y>
+            <Z>2.8</Z>
+            <IdentNr>14</IdentNr>
+          </Vertix>
+          <Vertix index="14">
+            <X>4.1</X>
+            <Y>0</Y>
+            <Z>2.8</Z>
+            <IdentNr>15</IdentNr>
+          </Vertix>
+          <Vertix index="15">
+            <X>4.1</X>
+            <Y>0</Y>
+            <Z>0.8</Z>
+            <IdentNr>16</IdentNr>
+          </Vertix>
+          <Vertix index="16">
+            <X>5.9</X>
+            <Y>0</Y>
+            <Z>0.8</Z>
+            <IdentNr>17</IdentNr>
+          </Vertix>
+          <Vertix index="17">
+            <X>5.9</X>
+            <Y>0</Y>
+            <Z>2.8</Z>
+            <IdentNr>18</IdentNr>
+          </Vertix>
+          <Vertix index="18">
+            <X>2.1</X>
+            <Y>0</Y>
+            <Z>2.8</Z>
+            <IdentNr>19</IdentNr>
+          </Vertix>
+          <Vertix index="19">
+            <X>2.1</X>
+            <Y>0</Y>
+            <Z>0.8</Z>
+            <IdentNr>20</IdentNr>
+          </Vertix>
+          <Vertix index="20">
+            <X>3.9</X>
+            <Y>0</Y>
+            <Z>0.8</Z>
+            <IdentNr>21</IdentNr>
+          </Vertix>
+          <Vertix index="21">
+            <X>3.9</X>
+            <Y>0</Y>
+            <Z>2.8</Z>
+            <IdentNr>22</IdentNr>
+          </Vertix>
+          <Vertix index="22">
+            <X>0.1</X>
+            <Y>0</Y>
+            <Z>2.8</Z>
+            <IdentNr>23</IdentNr>
+          </Vertix>
+          <Vertix index="23">
+            <X>0.1</X>
+            <Y>0</Y>
+            <Z>0.8</Z>
+            <IdentNr>24</IdentNr>
+          </Vertix>
+          <Vertix index="24">
+            <X>1.9</X>
+            <Y>0</Y>
+            <Z>0.8</Z>
+            <IdentNr>25</IdentNr>
+          </Vertix>
+          <Vertix index="25">
+            <X>1.9</X>
+            <Y>0</Y>
+            <Z>2.8</Z>
+            <IdentNr>26</IdentNr>
+          </Vertix>
+          <Vertix index="26">
+            <X>10</X>
+            <Y>8</Y>
+            <Z>0</Z>
+            <IdentNr>27</IdentNr>
+          </Vertix>
+          <Vertix index="27">
+            <X>0</X>
+            <Y>8</Y>
+            <Z>0</Z>
+            <IdentNr>28</IdentNr>
+          </Vertix>
+          <Vertix index="28">
+            <X>3.9</X>
+            <Y>8</Y>
+            <Z>2.8</Z>
+            <IdentNr>29</IdentNr>
+          </Vertix>
+          <Vertix index="29">
+            <X>3.9</X>
+            <Y>8</Y>
+            <Z>0.8</Z>
+            <IdentNr>30</IdentNr>
+          </Vertix>
+          <Vertix index="30">
+            <X>2.1</X>
+            <Y>8</Y>
+            <Z>0.8</Z>
+            <IdentNr>31</IdentNr>
+          </Vertix>
+          <Vertix index="31">
+            <X>2.1</X>
+            <Y>8</Y>
+            <Z>2.8</Z>
+            <IdentNr>32</IdentNr>
+          </Vertix>
+          <Vertix index="32">
+            <X>7.9</X>
+            <Y>8</Y>
+            <Z>2.8</Z>
+            <IdentNr>33</IdentNr>
+          </Vertix>
+          <Vertix index="33">
+            <X>7.9</X>
+            <Y>8</Y>
+            <Z>0.8</Z>
+            <IdentNr>34</IdentNr>
+          </Vertix>
+          <Vertix index="34">
+            <X>6.1</X>
+            <Y>8</Y>
+            <Z>0.8</Z>
+            <IdentNr>35</IdentNr>
+          </Vertix>
+          <Vertix index="35">
+            <X>6.1</X>
+            <Y>8</Y>
+            <Z>2.8</Z>
+            <IdentNr>36</IdentNr>
+          </Vertix>
+          <Vertix index="36">
+            <X>1.9</X>
+            <Y>8</Y>
+            <Z>2.8</Z>
+            <IdentNr>37</IdentNr>
+          </Vertix>
+          <Vertix index="37">
+            <X>1.9</X>
+            <Y>8</Y>
+            <Z>0.8</Z>
+            <IdentNr>38</IdentNr>
+          </Vertix>
+          <Vertix index="38">
+            <X>0.1</X>
+            <Y>8</Y>
+            <Z>0.8</Z>
+            <IdentNr>39</IdentNr>
+          </Vertix>
+          <Vertix index="39">
+            <X>0.1</X>
+            <Y>8</Y>
+            <Z>2.8</Z>
+            <IdentNr>40</IdentNr>
+          </Vertix>
+          <Vertix index="40">
+            <X>9.9</X>
+            <Y>8</Y>
+            <Z>2.8</Z>
+            <IdentNr>41</IdentNr>
+          </Vertix>
+          <Vertix index="41">
+            <X>9.9</X>
+            <Y>8</Y>
+            <Z>0.8</Z>
+            <IdentNr>42</IdentNr>
+          </Vertix>
+          <Vertix index="42">
+            <X>8.1</X>
+            <Y>8</Y>
+            <Z>0.8</Z>
+            <IdentNr>43</IdentNr>
+          </Vertix>
+          <Vertix index="43">
+            <X>8.1</X>
+            <Y>8</Y>
+            <Z>2.8</Z>
+            <IdentNr>44</IdentNr>
+          </Vertix>
+          <Vertix index="44">
+            <X>5.9</X>
+            <Y>8</Y>
+            <Z>2.8</Z>
+            <IdentNr>45</IdentNr>
+          </Vertix>
+          <Vertix index="45">
+            <X>5.9</X>
+            <Y>8</Y>
+            <Z>0.8</Z>
+            <IdentNr>46</IdentNr>
+          </Vertix>
+          <Vertix index="46">
+            <X>4.1</X>
+            <Y>8</Y>
+            <Z>0.8</Z>
+            <IdentNr>47</IdentNr>
+          </Vertix>
+          <Vertix index="47">
+            <X>4.1</X>
+            <Y>8</Y>
+            <Z>2.8</Z>
+            <IdentNr>48</IdentNr>
+          </Vertix>
+          <Vertix index="48">
+            <X>10</X>
+            <Y>6.1</Y>
+            <Z>2.8</Z>
+            <IdentNr>49</IdentNr>
+          </Vertix>
+          <Vertix index="49">
+            <X>10</X>
+            <Y>6.1</Y>
+            <Z>0.8</Z>
+            <IdentNr>50</IdentNr>
+          </Vertix>
+          <Vertix index="50">
+            <X>10</X>
+            <Y>7.9</Y>
+            <Z>0.8</Z>
+            <IdentNr>51</IdentNr>
+          </Vertix>
+          <Vertix index="51">
+            <X>10</X>
+            <Y>7.9</Y>
+            <Z>2.8</Z>
+            <IdentNr>52</IdentNr>
+          </Vertix>
+          <Vertix index="52">
+            <X>10</X>
+            <Y>0.1</Y>
+            <Z>2.8</Z>
+            <IdentNr>53</IdentNr>
+          </Vertix>
+          <Vertix index="53">
+            <X>10</X>
+            <Y>0.1</Y>
+            <Z>0.8</Z>
+            <IdentNr>54</IdentNr>
+          </Vertix>
+          <Vertix index="54">
+            <X>10</X>
+            <Y>1.9</Y>
+            <Z>0.8</Z>
+            <IdentNr>55</IdentNr>
+          </Vertix>
+          <Vertix index="55">
+            <X>10</X>
+            <Y>1.9</Y>
+            <Z>2.8</Z>
+            <IdentNr>56</IdentNr>
+          </Vertix>
+          <Vertix index="56">
+            <X>10</X>
+            <Y>4.1</Y>
+            <Z>2.8</Z>
+            <IdentNr>57</IdentNr>
+          </Vertix>
+          <Vertix index="57">
+            <X>10</X>
+            <Y>4.1</Y>
+            <Z>0.8</Z>
+            <IdentNr>58</IdentNr>
+          </Vertix>
+          <Vertix index="58">
+            <X>10</X>
+            <Y>5.9</Y>
+            <Z>0.8</Z>
+            <IdentNr>59</IdentNr>
+          </Vertix>
+          <Vertix index="59">
+            <X>10</X>
+            <Y>5.9</Y>
+            <Z>2.8</Z>
+            <IdentNr>60</IdentNr>
+          </Vertix>
+          <Vertix index="60">
+            <X>10</X>
+            <Y>2.1</Y>
+            <Z>2.8</Z>
+            <IdentNr>61</IdentNr>
+          </Vertix>
+          <Vertix index="61">
+            <X>10</X>
+            <Y>2.1</Y>
+            <Z>0.8</Z>
+            <IdentNr>62</IdentNr>
+          </Vertix>
+          <Vertix index="62">
+            <X>10</X>
+            <Y>3.9</Y>
+            <Z>0.8</Z>
+            <IdentNr>63</IdentNr>
+          </Vertix>
+          <Vertix index="63">
+            <X>10</X>
+            <Y>3.9</Y>
+            <Z>2.8</Z>
+            <IdentNr>64</IdentNr>
+          </Vertix>
+          <Vertix index="64">
+            <X>0</X>
+            <Y>1.9</Y>
+            <Z>2.8</Z>
+            <IdentNr>65</IdentNr>
+          </Vertix>
+          <Vertix index="65">
+            <X>0</X>
+            <Y>1.9</Y>
+            <Z>0.8</Z>
+            <IdentNr>66</IdentNr>
+          </Vertix>
+          <Vertix index="66">
+            <X>0</X>
+            <Y>0.1</Y>
+            <Z>0.8</Z>
+            <IdentNr>67</IdentNr>
+          </Vertix>
+          <Vertix index="67">
+            <X>0</X>
+            <Y>0.1</Y>
+            <Z>2.8</Z>
+            <IdentNr>68</IdentNr>
+          </Vertix>
+          <Vertix index="68">
+            <X>0</X>
+            <Y>5.9</Y>
+            <Z>2.8</Z>
+            <IdentNr>69</IdentNr>
+          </Vertix>
+          <Vertix index="69">
+            <X>0</X>
+            <Y>5.9</Y>
+            <Z>0.8</Z>
+            <IdentNr>70</IdentNr>
+          </Vertix>
+          <Vertix index="70">
+            <X>0</X>
+            <Y>4.1</Y>
+            <Z>0.8</Z>
+            <IdentNr>71</IdentNr>
+          </Vertix>
+          <Vertix index="71">
+            <X>0</X>
+            <Y>4.1</Y>
+            <Z>2.8</Z>
+            <IdentNr>72</IdentNr>
+          </Vertix>
+          <Vertix index="72">
+            <X>0</X>
+            <Y>3.9</Y>
+            <Z>2.8</Z>
+            <IdentNr>73</IdentNr>
+          </Vertix>
+          <Vertix index="73">
+            <X>0</X>
+            <Y>3.9</Y>
+            <Z>0.8</Z>
+            <IdentNr>74</IdentNr>
+          </Vertix>
+          <Vertix index="74">
+            <X>0</X>
+            <Y>2.1</Y>
+            <Z>0.8</Z>
+            <IdentNr>75</IdentNr>
+          </Vertix>
+          <Vertix index="75">
+            <X>0</X>
+            <Y>2.1</Y>
+            <Z>2.8</Z>
+            <IdentNr>76</IdentNr>
+          </Vertix>
+          <Vertix index="76">
+            <X>0</X>
+            <Y>7.9</Y>
+            <Z>2.8</Z>
+            <IdentNr>77</IdentNr>
+          </Vertix>
+          <Vertix index="77">
+            <X>0</X>
+            <Y>7.9</Y>
+            <Z>0.8</Z>
+            <IdentNr>78</IdentNr>
+          </Vertix>
+          <Vertix index="78">
+            <X>0</X>
+            <Y>6.1</Y>
+            <Z>0.8</Z>
+            <IdentNr>79</IdentNr>
+          </Vertix>
+          <Vertix index="79">
+            <X>0</X>
+            <Y>6.1</Y>
+            <Z>2.8</Z>
+            <IdentNr>80</IdentNr>
+          </Vertix>
+        </Vertices>
+        <Polygons count="24">
+          <Polygon index="0">
+            <IdentNr>10000000</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>1</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">1</IdentNr>
+              <IdentNr index="1">2</IdentNr>
+              <IdentNr index="2">3</IdentNr>
+              <IdentNr index="3">4</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="1">
+            <IdentNr>10000001</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>-1</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">2</IdentNr>
+              <IdentNr index="1">5</IdentNr>
+              <IdentNr index="2">6</IdentNr>
+              <IdentNr index="3">3</IdentNr>
+            </IdentNrPoints>
+            <IdentNrPolygonsInside count="5">
+              <IdentNr index="0">10000002</IdentNr>
+              <IdentNr index="1">10000003</IdentNr>
+              <IdentNr index="2">10000004</IdentNr>
+              <IdentNr index="3">10000005</IdentNr>
+              <IdentNr index="4">10000006</IdentNr>
+            </IdentNrPolygonsInside>
+          </Polygon>
+          <Polygon index="2">
+            <IdentNr>10000002</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>-1</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">7</IdentNr>
+              <IdentNr index="1">8</IdentNr>
+              <IdentNr index="2">9</IdentNr>
+              <IdentNr index="3">10</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="3">
+            <IdentNr>10000003</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>-1</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">11</IdentNr>
+              <IdentNr index="1">12</IdentNr>
+              <IdentNr index="2">13</IdentNr>
+              <IdentNr index="3">14</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="4">
+            <IdentNr>10000004</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>-1</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">15</IdentNr>
+              <IdentNr index="1">16</IdentNr>
+              <IdentNr index="2">17</IdentNr>
+              <IdentNr index="3">18</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="5">
+            <IdentNr>10000005</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>-1</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">19</IdentNr>
+              <IdentNr index="1">20</IdentNr>
+              <IdentNr index="2">21</IdentNr>
+              <IdentNr index="3">22</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="6">
+            <IdentNr>10000006</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>-1</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">23</IdentNr>
+              <IdentNr index="1">24</IdentNr>
+              <IdentNr index="2">25</IdentNr>
+              <IdentNr index="3">26</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="7">
+            <IdentNr>10000007</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>1</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">4</IdentNr>
+              <IdentNr index="1">27</IdentNr>
+              <IdentNr index="2">28</IdentNr>
+              <IdentNr index="3">1</IdentNr>
+            </IdentNrPoints>
+            <IdentNrPolygonsInside count="5">
+              <IdentNr index="0">10000008</IdentNr>
+              <IdentNr index="1">10000009</IdentNr>
+              <IdentNr index="2">10000010</IdentNr>
+              <IdentNr index="3">10000011</IdentNr>
+              <IdentNr index="4">10000012</IdentNr>
+            </IdentNrPolygonsInside>
+          </Polygon>
+          <Polygon index="8">
+            <IdentNr>10000008</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>1</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">29</IdentNr>
+              <IdentNr index="1">30</IdentNr>
+              <IdentNr index="2">31</IdentNr>
+              <IdentNr index="3">32</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="9">
+            <IdentNr>10000009</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>1</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">33</IdentNr>
+              <IdentNr index="1">34</IdentNr>
+              <IdentNr index="2">35</IdentNr>
+              <IdentNr index="3">36</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="10">
+            <IdentNr>10000010</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>1</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">37</IdentNr>
+              <IdentNr index="1">38</IdentNr>
+              <IdentNr index="2">39</IdentNr>
+              <IdentNr index="3">40</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="11">
+            <IdentNr>10000011</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>1</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">41</IdentNr>
+              <IdentNr index="1">42</IdentNr>
+              <IdentNr index="2">43</IdentNr>
+              <IdentNr index="3">44</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="12">
+            <IdentNr>10000012</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>1</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">45</IdentNr>
+              <IdentNr index="1">46</IdentNr>
+              <IdentNr index="2">47</IdentNr>
+              <IdentNr index="3">48</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="13">
+            <IdentNr>10000013</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>-1</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">6</IdentNr>
+              <IdentNr index="1">5</IdentNr>
+              <IdentNr index="2">28</IdentNr>
+              <IdentNr index="3">27</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="14">
+            <IdentNr>10000014</IdentNr>
+            <NormalVectorX>1</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">3</IdentNr>
+              <IdentNr index="1">6</IdentNr>
+              <IdentNr index="2">27</IdentNr>
+              <IdentNr index="3">4</IdentNr>
+            </IdentNrPoints>
+            <IdentNrPolygonsInside count="4">
+              <IdentNr index="0">10000015</IdentNr>
+              <IdentNr index="1">10000016</IdentNr>
+              <IdentNr index="2">10000017</IdentNr>
+              <IdentNr index="3">10000018</IdentNr>
+            </IdentNrPolygonsInside>
+          </Polygon>
+          <Polygon index="15">
+            <IdentNr>10000015</IdentNr>
+            <NormalVectorX>1</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">49</IdentNr>
+              <IdentNr index="1">50</IdentNr>
+              <IdentNr index="2">51</IdentNr>
+              <IdentNr index="3">52</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="16">
+            <IdentNr>10000016</IdentNr>
+            <NormalVectorX>1</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">53</IdentNr>
+              <IdentNr index="1">54</IdentNr>
+              <IdentNr index="2">55</IdentNr>
+              <IdentNr index="3">56</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="17">
+            <IdentNr>10000017</IdentNr>
+            <NormalVectorX>1</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">57</IdentNr>
+              <IdentNr index="1">58</IdentNr>
+              <IdentNr index="2">59</IdentNr>
+              <IdentNr index="3">60</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="18">
+            <IdentNr>10000018</IdentNr>
+            <NormalVectorX>1</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">61</IdentNr>
+              <IdentNr index="1">62</IdentNr>
+              <IdentNr index="2">63</IdentNr>
+              <IdentNr index="3">64</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="19">
+            <IdentNr>10000019</IdentNr>
+            <NormalVectorX>-1</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">1</IdentNr>
+              <IdentNr index="1">28</IdentNr>
+              <IdentNr index="2">5</IdentNr>
+              <IdentNr index="3">2</IdentNr>
+            </IdentNrPoints>
+            <IdentNrPolygonsInside count="4">
+              <IdentNr index="0">10000020</IdentNr>
+              <IdentNr index="1">10000021</IdentNr>
+              <IdentNr index="2">10000022</IdentNr>
+              <IdentNr index="3">10000023</IdentNr>
+            </IdentNrPolygonsInside>
+          </Polygon>
+          <Polygon index="20">
+            <IdentNr>10000020</IdentNr>
+            <NormalVectorX>-1</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">65</IdentNr>
+              <IdentNr index="1">66</IdentNr>
+              <IdentNr index="2">67</IdentNr>
+              <IdentNr index="3">68</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="21">
+            <IdentNr>10000021</IdentNr>
+            <NormalVectorX>-1</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">69</IdentNr>
+              <IdentNr index="1">70</IdentNr>
+              <IdentNr index="2">71</IdentNr>
+              <IdentNr index="3">72</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="22">
+            <IdentNr>10000022</IdentNr>
+            <NormalVectorX>-1</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">73</IdentNr>
+              <IdentNr index="1">74</IdentNr>
+              <IdentNr index="2">75</IdentNr>
+              <IdentNr index="3">76</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="23">
+            <IdentNr>10000023</IdentNr>
+            <NormalVectorX>-1</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">77</IdentNr>
+              <IdentNr index="1">78</IdentNr>
+              <IdentNr index="2">79</IdentNr>
+              <IdentNr index="3">80</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+        </Polygons>
+      </Graphics_3D>
+      <ClimateLocation>
+        <Selection choice="User defined file">2</Selection>
+        <Name>not defined</Name>
+        <Comment />
+        <Latitude unit="°">0</Latitude>
+        <Longitude unit="°">0</Longitude>
+        <HeightNN unit="m">0</HeightNN>
+        <dUTC>0</dUTC>
+        <FileName />
+        <GroundReflShort unit="-">0.2</GroundReflShort>
+        <GroundReflLong unit="-">0.1</GroundReflLong>
+        <GroundEmission unit="-">0.9</GroundEmission>
+        <CloudIndex unit="-">0.66</CloudIndex>
+        <CO2concenration unit="mg/m³">350</CO2concenration>
+        <Unit_CO2concentration choice="ppmv">48</Unit_CO2concentration>
+        <BoundaryCondition>
+          <Type>4</Type>
+          <IdentNr>-1</IdentNr>
+          <IdentNr_Object>-1</IdentNr_Object>
+          <ThermalResistance_Horizontal unit="m²K/W">0.04</ThermalResistance_Horizontal>
+          <ThermalResistance_Down unit="m²K/W">0.04</ThermalResistance_Down>
+          <ThermalResistance_Up unit="m²K/W">0.04</ThermalResistance_Up>
+          <Color>
+            <Alpha>255</Alpha>
+            <Red>0</Red>
+            <Green>255</Green>
+            <Blue>255</Blue>
+          </Color>
+        </BoundaryCondition>
+        <PH_ClimateLocation>
+          <Selection choice="Standard">1</Selection>
+          <Latitude unit="°">0</Latitude>
+          <HeightNNWeatherStation unit="m">0</HeightNNWeatherStation>
+          <Longitude unit="°">0</Longitude>
+          <HeightNNBuilding unit="m">0</HeightNNBuilding>
+          <DailyTemperatureSwingSummer unit="K">0</DailyTemperatureSwingSummer>
+          <AverageWindSpeed unit="m/s">4</AverageWindSpeed>
+          <GroundThermalConductivity unit="W/mK">2</GroundThermalConductivity>
+          <GroundHeatCapacitiy unit="J/kgK">1000</GroundHeatCapacitiy>
+          <GroundDensity unit="kg/m³">2000</GroundDensity>
+          <DepthGroundwater unit="m">3</DepthGroundwater>
+          <FlowRateGroundwater unit="m/d">0.05</FlowRateGroundwater>
+          <TemperatureMonthly unit="°C" count="12">
+            <Item index="0">0</Item>
+            <Item index="1">0</Item>
+            <Item index="2">0</Item>
+            <Item index="3">0</Item>
+            <Item index="4">0</Item>
+            <Item index="5">0</Item>
+            <Item index="6">0</Item>
+            <Item index="7">0</Item>
+            <Item index="8">0</Item>
+            <Item index="9">0</Item>
+            <Item index="10">0</Item>
+            <Item index="11">0</Item>
+          </TemperatureMonthly>
+          <DewPointTemperatureMonthly unit="°C" count="12">
+            <Item index="0">0</Item>
+            <Item index="1">0</Item>
+            <Item index="2">0</Item>
+            <Item index="3">0</Item>
+            <Item index="4">0</Item>
+            <Item index="5">0</Item>
+            <Item index="6">0</Item>
+            <Item index="7">0</Item>
+            <Item index="8">0</Item>
+            <Item index="9">0</Item>
+            <Item index="10">0</Item>
+            <Item index="11">0</Item>
+          </DewPointTemperatureMonthly>
+          <SkyTemperatureMonthly unit="°C" count="12">
+            <Item index="0">0</Item>
+            <Item index="1">0</Item>
+            <Item index="2">0</Item>
+            <Item index="3">0</Item>
+            <Item index="4">0</Item>
+            <Item index="5">0</Item>
+            <Item index="6">0</Item>
+            <Item index="7">0</Item>
+            <Item index="8">0</Item>
+            <Item index="9">0</Item>
+            <Item index="10">0</Item>
+            <Item index="11">0</Item>
+          </SkyTemperatureMonthly>
+          <GroundTemperatureMonthly unit="°C" count="12">
+            <Item index="0">0</Item>
+            <Item index="1">0</Item>
+            <Item index="2">0</Item>
+            <Item index="3">0</Item>
+            <Item index="4">0</Item>
+            <Item index="5">0</Item>
+            <Item index="6">0</Item>
+            <Item index="7">0</Item>
+            <Item index="8">0</Item>
+            <Item index="9">0</Item>
+            <Item index="10">0</Item>
+            <Item index="11">0</Item>
+          </GroundTemperatureMonthly>
+          <NorthSolarRadiationMonthly unit="kWh/m²Month" count="12">
+            <Item index="0">0</Item>
+            <Item index="1">0</Item>
+            <Item index="2">0</Item>
+            <Item index="3">0</Item>
+            <Item index="4">0</Item>
+            <Item index="5">0</Item>
+            <Item index="6">0</Item>
+            <Item index="7">0</Item>
+            <Item index="8">0</Item>
+            <Item index="9">0</Item>
+            <Item index="10">0</Item>
+            <Item index="11">0</Item>
+          </NorthSolarRadiationMonthly>
+          <EastSolarRadiationMonthly unit="kWh/m²Month" count="12">
+            <Item index="0">0</Item>
+            <Item index="1">0</Item>
+            <Item index="2">0</Item>
+            <Item index="3">0</Item>
+            <Item index="4">0</Item>
+            <Item index="5">0</Item>
+            <Item index="6">0</Item>
+            <Item index="7">0</Item>
+            <Item index="8">0</Item>
+            <Item index="9">0</Item>
+            <Item index="10">0</Item>
+            <Item index="11">0</Item>
+          </EastSolarRadiationMonthly>
+          <SouthSolarRadiationMonthly unit="kWh/m²Month" count="12">
+            <Item index="0">0</Item>
+            <Item index="1">0</Item>
+            <Item index="2">0</Item>
+            <Item index="3">0</Item>
+            <Item index="4">0</Item>
+            <Item index="5">0</Item>
+            <Item index="6">0</Item>
+            <Item index="7">0</Item>
+            <Item index="8">0</Item>
+            <Item index="9">0</Item>
+            <Item index="10">0</Item>
+            <Item index="11">0</Item>
+          </SouthSolarRadiationMonthly>
+          <WestSolarRadiationMonthly unit="kWh/m²Month" count="12">
+            <Item index="0">0</Item>
+            <Item index="1">0</Item>
+            <Item index="2">0</Item>
+            <Item index="3">0</Item>
+            <Item index="4">0</Item>
+            <Item index="5">0</Item>
+            <Item index="6">0</Item>
+            <Item index="7">0</Item>
+            <Item index="8">0</Item>
+            <Item index="9">0</Item>
+            <Item index="10">0</Item>
+            <Item index="11">0</Item>
+          </WestSolarRadiationMonthly>
+          <GlobalSolarRadiationMonthly unit="kWh/m²Month" count="12">
+            <Item index="0">0</Item>
+            <Item index="1">0</Item>
+            <Item index="2">0</Item>
+            <Item index="3">0</Item>
+            <Item index="4">0</Item>
+            <Item index="5">0</Item>
+            <Item index="6">0</Item>
+            <Item index="7">0</Item>
+            <Item index="8">0</Item>
+            <Item index="9">0</Item>
+            <Item index="10">0</Item>
+            <Item index="11">0</Item>
+          </GlobalSolarRadiationMonthly>
+          <TemperatureHeating1 unit="°C">0</TemperatureHeating1>
+          <NorthSolarRadiationHeating1 unit="W/m²">0</NorthSolarRadiationHeating1>
+          <EastSolarRadiationHeating1 unit="W/m²">0</EastSolarRadiationHeating1>
+          <SouthSolarRadiationHeating1 unit="W/m²">0</SouthSolarRadiationHeating1>
+          <WestSolarRadiationHeating1 unit="W/m²">0</WestSolarRadiationHeating1>
+          <GlobalSolarRadiationHeating1 unit="W/m²">0</GlobalSolarRadiationHeating1>
+          <TemperatureHeating2 unit="°C">0</TemperatureHeating2>
+          <NorthSolarRadiationHeating2 unit="W/m²">0</NorthSolarRadiationHeating2>
+          <EastSolarRadiationHeating2 unit="W/m²">0</EastSolarRadiationHeating2>
+          <SouthSolarRadiationHeating2 unit="W/m²">0</SouthSolarRadiationHeating2>
+          <WestSolarRadiationHeating2 unit="W/m²">0</WestSolarRadiationHeating2>
+          <GlobalSolarRadiationHeating2 unit="W/m²">0</GlobalSolarRadiationHeating2>
+          <TemperatureCooling unit="°C">0</TemperatureCooling>
+          <NorthSolarRadiationCooling unit="W/m²">0</NorthSolarRadiationCooling>
+          <EastSolarRadiationCooling unit="W/m²">0</EastSolarRadiationCooling>
+          <SouthSolarRadiationCooling unit="W/m²">0</SouthSolarRadiationCooling>
+          <WestSolarRadiationCooling unit="W/m²">0</WestSolarRadiationCooling>
+          <GlobalSolarRadiationCooling unit="W/m²">0</GlobalSolarRadiationCooling>
+          <SelectionPECO2Factor choice="Standard USA">1</SelectionPECO2Factor>
+        </PH_ClimateLocation>
+      </ClimateLocation>
+      <Building>
+        <BuildingHeight_Selection choice="From visualized geometry">2</BuildingHeight_Selection>
+        <BuildingHeight unit="m">2</BuildingHeight>
+        <FacadeWidth_WestEast_Selection choice="User defined">6</FacadeWidth_WestEast_Selection>
+        <FacadeWidth_WestEast unit="m">0</FacadeWidth_WestEast>
+        <FacadeWidth_NorthSouth_Selection choice="User defined">6</FacadeWidth_NorthSouth_Selection>
+        <FacadeWidth_NorthSouth unit="m">0</FacadeWidth_NorthSouth>
+        <ChoiceBoundaryLayerThickness choice="Open terrain">3</ChoiceBoundaryLayerThickness>
+        <AirFlowModel>
+          <AirFlowSettings choice="Individial settings">1</AirFlowSettings>
+          <OverwriteExistingParams>false</OverwriteExistingParams>
+        </AirFlowModel>
+        <Settings>
+          <ShadingSetting choice="Individial settings">1</ShadingSetting>
+          <ShadingDirect choice="Use preprocess results">1</ShadingDirect>
+        </Settings>
+        <Components count="4">
+          <Component index="0">
+            <IdentNr>1</IdentNr>
+            <Name>Roof</Name>
+            <Visual>true</Visual>
+            <InnerAttachment choice="zone_0_space">1</InnerAttachment>
+            <OuterAttachment choice="Outer air">-1</OuterAttachment>
+            <Type choice="Opaque">1</Type>
+            <IdentNrColorI>6</IdentNrColorI>
+            <IdentNrColorE>10</IdentNrColorE>
+            <ColorExternUserDef>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>255</Blue>
+            </ColorExternUserDef>
+            <ColorInternUserDef>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>255</Blue>
+            </ColorInternUserDef>
+            <IdentNrPolygons count="1">
+              <IdentNr index="0">10000000</IdentNr>
+            </IdentNrPolygons>
+            <KindInitialCond_RH choice="Constant rel. humidity">1</KindInitialCond_RH>
+            <InitialRH unit="-">0.8</InitialRH>
+            <InitialTemperature unit="°C">20</InitialTemperature>
+            <KindRsiRse choice="According to component type">1</KindRsiRse>
+            <Rse unit="m²K/W">0</Rse>
+            <Rsi unit="m²K/W">0</Rsi>
+            <TypeOuterClimate choice="According to component type (outer attachment)">1</TypeOuterClimate>
+            <IdentNrOptionalClimate choice=" ">-1</IdentNrOptionalClimate>
+            <PartInnerSolarGain unit="-">0</PartInnerSolarGain>
+            <SolarGainProportionalToArea unit="-">0</SolarGainProportionalToArea>
+            <ChosenForAirFlowModel>false</ChosenForAirFlowModel>
+            <HeightAboveGround_Selection choice="User defined">6</HeightAboveGround_Selection>
+            <HeightAboveGround unit="m">0</HeightAboveGround>
+            <EmissionExtern unit="-">0.9</EmissionExtern>
+            <EmissionIntern unit="-">0.9</EmissionIntern>
+            <CalcHeatTransport>true</CalcHeatTransport>
+            <CalcMoistureTransport>true</CalcMoistureTransport>
+            <ExcludingCapillaryCond>false</ExcludingCapillaryCond>
+            <ExcludingLatentHeatEvaporation>false</ExcludingLatentHeatEvaporation>
+            <ExcludingLatentHeatFusion>false</ExcludingLatentHeatFusion>
+            <IncreasedAccuracy>true</IncreasedAccuracy>
+            <AdaptedConvergence>true</AdaptedConvergence>
+            <Rse_WindDependend>false</Rse_WindDependend>
+            <ApplyLongWaveEmission>false</ApplyLongWaveEmission>
+            <CalcShadow>false</CalcShadow>
+            <ShadingFactor unit="-">1</ShadingFactor>
+            <ExteriorDoor>false</ExteriorDoor>
+            <IdentNrAssembly>3</IdentNrAssembly>
+            <KindAbsorption choice="User defined">-2</KindAbsorption>
+            <Absorption unit="-">0.4</Absorption>
+            <KindSdExtern choice="No coating">-1</KindSdExtern>
+            <Sde unit="m">0</Sde>
+            <KindSdIntern choice="No coating">-1</KindSdIntern>
+            <Sdi unit="m">0</Sdi>
+            <KindRain choice="No rain load">-1</KindRain>
+            <KindRainAbsorption choice="No rain absorption">-1</KindRainAbsorption>
+            <Rain_R1 unit="-">0</Rain_R1>
+            <Rain_R2 unit="s/m">0</Rain_R2>
+            <Rain_Absorption unit="-">0</Rain_Absorption>
+            <Results>
+              <SaveResults>false</SaveResults>
+            </Results>
+          </Component>
+          <Component index="1">
+            <IdentNr>2</IdentNr>
+            <Name>ExteriorWall</Name>
+            <Visual>true</Visual>
+            <InnerAttachment choice="zone_0_space">1</InnerAttachment>
+            <OuterAttachment choice="Outer air">-1</OuterAttachment>
+            <Type choice="Opaque">1</Type>
+            <IdentNrColorI>1</IdentNrColorI>
+            <IdentNrColorE>2</IdentNrColorE>
+            <ColorExternUserDef>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>255</Blue>
+            </ColorExternUserDef>
+            <ColorInternUserDef>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>255</Blue>
+            </ColorInternUserDef>
+            <IdentNrPolygons count="4">
+              <IdentNr index="0">10000001</IdentNr>
+              <IdentNr index="1">10000007</IdentNr>
+              <IdentNr index="2">10000014</IdentNr>
+              <IdentNr index="3">10000019</IdentNr>
+            </IdentNrPolygons>
+            <KindInitialCond_RH choice="Constant rel. humidity">1</KindInitialCond_RH>
+            <InitialRH unit="-">0.8</InitialRH>
+            <InitialTemperature unit="°C">20</InitialTemperature>
+            <KindRsiRse choice="According to component type">1</KindRsiRse>
+            <Rse unit="m²K/W">0</Rse>
+            <Rsi unit="m²K/W">0</Rsi>
+            <TypeOuterClimate choice="According to component type (outer attachment)">1</TypeOuterClimate>
+            <IdentNrOptionalClimate choice=" ">-1</IdentNrOptionalClimate>
+            <PartInnerSolarGain unit="-">0</PartInnerSolarGain>
+            <SolarGainProportionalToArea unit="-">0</SolarGainProportionalToArea>
+            <ChosenForAirFlowModel>false</ChosenForAirFlowModel>
+            <HeightAboveGround_Selection choice="User defined">6</HeightAboveGround_Selection>
+            <HeightAboveGround unit="m">0</HeightAboveGround>
+            <EmissionExtern unit="-">0.9</EmissionExtern>
+            <EmissionIntern unit="-">0.9</EmissionIntern>
+            <CalcHeatTransport>true</CalcHeatTransport>
+            <CalcMoistureTransport>true</CalcMoistureTransport>
+            <ExcludingCapillaryCond>false</ExcludingCapillaryCond>
+            <ExcludingLatentHeatEvaporation>false</ExcludingLatentHeatEvaporation>
+            <ExcludingLatentHeatFusion>false</ExcludingLatentHeatFusion>
+            <IncreasedAccuracy>true</IncreasedAccuracy>
+            <AdaptedConvergence>true</AdaptedConvergence>
+            <Rse_WindDependend>false</Rse_WindDependend>
+            <ApplyLongWaveEmission>false</ApplyLongWaveEmission>
+            <CalcShadow>false</CalcShadow>
+            <ShadingFactor unit="-">1</ShadingFactor>
+            <ExteriorDoor>false</ExteriorDoor>
+            <IdentNrAssembly>1</IdentNrAssembly>
+            <KindAbsorption choice="User defined">-2</KindAbsorption>
+            <Absorption unit="-">0.4</Absorption>
+            <KindSdExtern choice="No coating">-1</KindSdExtern>
+            <Sde unit="m">0</Sde>
+            <KindSdIntern choice="No coating">-1</KindSdIntern>
+            <Sdi unit="m">0</Sdi>
+            <KindRain choice="No rain load">-1</KindRain>
+            <KindRainAbsorption choice="No rain absorption">-1</KindRainAbsorption>
+            <Rain_R1 unit="-">0</Rain_R1>
+            <Rain_R2 unit="s/m">0</Rain_R2>
+            <Rain_Absorption unit="-">0</Rain_Absorption>
+            <Results>
+              <SaveResults>false</SaveResults>
+            </Results>
+          </Component>
+          <Component index="2">
+            <IdentNr>3</IdentNr>
+            <Name>FixedWindow</Name>
+            <Visual>true</Visual>
+            <InnerAttachment choice="zone_0_space">1</InnerAttachment>
+            <OuterAttachment choice="Outer air">-1</OuterAttachment>
+            <Type choice="Transparent">2</Type>
+            <IdentNrColorI>4</IdentNrColorI>
+            <IdentNrColorE>4</IdentNrColorE>
+            <ColorExternUserDef>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>255</Blue>
+            </ColorExternUserDef>
+            <ColorInternUserDef>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>255</Blue>
+            </ColorInternUserDef>
+            <IdentNrPolygons count="18">
+              <IdentNr index="0">10000002</IdentNr>
+              <IdentNr index="1">10000003</IdentNr>
+              <IdentNr index="2">10000004</IdentNr>
+              <IdentNr index="3">10000005</IdentNr>
+              <IdentNr index="4">10000006</IdentNr>
+              <IdentNr index="5">10000008</IdentNr>
+              <IdentNr index="6">10000009</IdentNr>
+              <IdentNr index="7">10000010</IdentNr>
+              <IdentNr index="8">10000011</IdentNr>
+              <IdentNr index="9">10000012</IdentNr>
+              <IdentNr index="10">10000015</IdentNr>
+              <IdentNr index="11">10000016</IdentNr>
+              <IdentNr index="12">10000017</IdentNr>
+              <IdentNr index="13">10000018</IdentNr>
+              <IdentNr index="14">10000020</IdentNr>
+              <IdentNr index="15">10000021</IdentNr>
+              <IdentNr index="16">10000022</IdentNr>
+              <IdentNr index="17">10000023</IdentNr>
+            </IdentNrPolygons>
+            <KindInitialCond_RH choice="Constant rel. humidity">1</KindInitialCond_RH>
+            <InitialRH unit="-">0.8</InitialRH>
+            <InitialTemperature unit="°C">20</InitialTemperature>
+            <KindRsiRse choice="According to component type">1</KindRsiRse>
+            <Rse unit="m²K/W">0</Rse>
+            <Rsi unit="m²K/W">0</Rsi>
+            <TypeOuterClimate choice="According to component type (outer attachment)">1</TypeOuterClimate>
+            <IdentNrOptionalClimate choice=" ">-1</IdentNrOptionalClimate>
+            <PartInnerSolarGain unit="-">0</PartInnerSolarGain>
+            <SolarGainProportionalToArea unit="-">0</SolarGainProportionalToArea>
+            <ChosenForAirFlowModel>false</ChosenForAirFlowModel>
+            <HeightAboveGround_Selection choice="User defined">6</HeightAboveGround_Selection>
+            <HeightAboveGround unit="m">0</HeightAboveGround>
+            <EmissionExtern unit="-">0.9</EmissionExtern>
+            <EmissionIntern unit="-">0.9</EmissionIntern>
+            <Rse_WindDependend>false</Rse_WindDependend>
+            <ApplyLongWaveEmission>false</ApplyLongWaveEmission>
+            <CalcShadow>false</CalcShadow>
+            <ShadingFactor unit="-">1</ShadingFactor>
+            <ExteriorDoor>false</ExteriorDoor>
+            <IdentNrWindowType>1</IdentNrWindowType>
+            <IdentNrSolarProtection>-1</IdentNrSolarProtection>
+            <IdentNrOverhang>-1</IdentNrOverhang>
+            <WindowWidth unit="m">1</WindowWidth>
+            <DepthWindowReveal unit="m">0</DepthWindowReveal>
+            <DistanceDaylightOpeningToReveal unit="m">0</DistanceDaylightOpeningToReveal>
+            <HeightLandscapeObstruction unit="m">0</HeightLandscapeObstruction>
+            <DistanceLandscapeObstruction unit="m">0</DistanceLandscapeObstruction>
+            <OtherShading unit="-">1</OtherShading>
+            <OtherShadingSummer unit="-">1</OtherShadingSummer>
+            <Results>
+              <SaveResults>false</SaveResults>
+            </Results>
+          </Component>
+          <Component index="3">
+            <IdentNr>4</IdentNr>
+            <Name>SlabOnGrade</Name>
+            <Visual>true</Visual>
+            <InnerAttachment choice="zone_0_space">1</InnerAttachment>
+            <OuterAttachment choice="Ground">-2</OuterAttachment>
+            <Type choice="Opaque">1</Type>
+            <IdentNrColorI>5</IdentNrColorI>
+            <IdentNrColorE>12</IdentNrColorE>
+            <ColorExternUserDef>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>255</Blue>
+            </ColorExternUserDef>
+            <ColorInternUserDef>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>255</Blue>
+            </ColorInternUserDef>
+            <IdentNrPolygons count="1">
+              <IdentNr index="0">10000013</IdentNr>
+            </IdentNrPolygons>
+            <KindInitialCond_RH choice="Constant rel. humidity">1</KindInitialCond_RH>
+            <InitialRH unit="-">0.8</InitialRH>
+            <InitialTemperature unit="°C">20</InitialTemperature>
+            <KindRsiRse choice="According to component type">1</KindRsiRse>
+            <Rse unit="m²K/W">0</Rse>
+            <Rsi unit="m²K/W">0</Rsi>
+            <TypeOuterClimate choice="According to component type (outer attachment)">1</TypeOuterClimate>
+            <IdentNrOptionalClimate choice=" ">-1</IdentNrOptionalClimate>
+            <PartInnerSolarGain unit="-">0</PartInnerSolarGain>
+            <SolarGainProportionalToArea unit="-">0</SolarGainProportionalToArea>
+            <ChosenForAirFlowModel>false</ChosenForAirFlowModel>
+            <HeightAboveGround_Selection choice="User defined">6</HeightAboveGround_Selection>
+            <HeightAboveGround unit="m">0</HeightAboveGround>
+            <EmissionExtern unit="-">0.9</EmissionExtern>
+            <EmissionIntern unit="-">0.9</EmissionIntern>
+            <CalcHeatTransport>true</CalcHeatTransport>
+            <CalcMoistureTransport>true</CalcMoistureTransport>
+            <ExcludingCapillaryCond>false</ExcludingCapillaryCond>
+            <ExcludingLatentHeatEvaporation>false</ExcludingLatentHeatEvaporation>
+            <ExcludingLatentHeatFusion>false</ExcludingLatentHeatFusion>
+            <IncreasedAccuracy>true</IncreasedAccuracy>
+            <AdaptedConvergence>true</AdaptedConvergence>
+            <Rse_WindDependend>false</Rse_WindDependend>
+            <ApplyLongWaveEmission>false</ApplyLongWaveEmission>
+            <CalcShadow>false</CalcShadow>
+            <ShadingFactor unit="-">1</ShadingFactor>
+            <ExteriorDoor>false</ExteriorDoor>
+            <IdentNrAssembly>2</IdentNrAssembly>
+            <KindAbsorption choice="User defined">-2</KindAbsorption>
+            <Absorption unit="-">0.4</Absorption>
+            <KindSdExtern choice="No coating">-1</KindSdExtern>
+            <Sde unit="m">0</Sde>
+            <KindSdIntern choice="No coating">-1</KindSdIntern>
+            <Sdi unit="m">0</Sdi>
+            <KindRain choice="No rain load">-1</KindRain>
+            <KindRainAbsorption choice="No rain absorption">-1</KindRainAbsorption>
+            <Rain_R1 unit="-">0</Rain_R1>
+            <Rain_R2 unit="s/m">0</Rain_R2>
+            <Rain_Absorption unit="-">0</Rain_Absorption>
+            <Results>
+              <SaveResults>false</SaveResults>
+            </Results>
+          </Component>
+        </Components>
+        <Zones count="1">
+          <Zone index="0">
+            <Name>zone_0_space</Name>
+            <KindZone choice="Simulated zone">1</KindZone>
+            <IdentNr>1</IdentNr>
+            <VisualizedVolume_Selection choice="From visualized geometry">2</VisualizedVolume_Selection>
+            <VisualizedVolume unit="m³">0</VisualizedVolume>
+            <GrossVolume_Selection choice="From reference volume and components">7</GrossVolume_Selection>
+            <GrossVolume unit="m³">0</GrossVolume>
+            <NetVolume_Selection choice="User defined">6</NetVolume_Selection>
+            <NetVolume unit="m³">240</NetVolume>
+            <FloorArea_Selection choice="User defined">6</FloorArea_Selection>
+            <FloorArea unit="m²">80</FloorArea>
+            <HeightFloorAboveGround_Selection choice="User defined">6</HeightFloorAboveGround_Selection>
+            <HeightFloorAboveGround unit="m">0</HeightFloorAboveGround>
+            <Calculator_GrossVolume>
+              <Result>----</Result>
+              <OK>false</OK>
+              <Expresions count="1">
+                <Component index="0">
+                  <OK>false</OK>
+                  <Error>Empty expression</Error>
+                </Component>
+              </Expresions>
+            </Calculator_GrossVolume>
+            <Calculator_NetVolume>
+              <Result>----</Result>
+              <OK>false</OK>
+              <Expresions count="1">
+                <Component index="0">
+                  <OK>false</OK>
+                  <Error>Empty expression</Error>
+                </Component>
+              </Expresions>
+            </Calculator_NetVolume>
+            <Calculator_FloorArea>
+              <Result>----</Result>
+              <OK>false</OK>
+              <Expresions count="1">
+                <Component index="0">
+                  <OK>false</OK>
+                  <Error>Empty expression</Error>
+                </Component>
+              </Expresions>
+            </Calculator_FloorArea>
+            <UseAirFlowModel>false</UseAirFlowModel>
+            <InnerLongwaveRadiationExchange>false</InnerLongwaveRadiationExchange>
+            <TypeCalculationInnerClimate choice="Calculate">1</TypeCalculationInnerClimate>
+            <DesignConditions>
+              <Unit_MinTemperature choice="°C">14</Unit_MinTemperature>
+              <Selection_MinTemperature choice="Periodic day profiles">1</Selection_MinTemperature>
+              <TimeProfile_MinTemperature count="1">
+                <Period index="0">
+                  <Begin>
+                    <Year>2013</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2014</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="h">0</Hour>
+                      <Value unit="°C">20</Value>
+                    </Item>
+                  </DayProfile>
+                </Period>
+              </TimeProfile_MinTemperature>
+              <Unit_MaxTemperature choice="°C">14</Unit_MaxTemperature>
+              <Selection_MaxTemperature choice="Periodic day profiles">1</Selection_MaxTemperature>
+              <TimeProfile_MaxTemperature count="1">
+                <Period index="0">
+                  <Begin>
+                    <Year>2013</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2014</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="h">0</Hour>
+                      <Value unit="°C">27</Value>
+                    </Item>
+                  </DayProfile>
+                </Period>
+              </TimeProfile_MaxTemperature>
+              <Unit_MinRelHumidity choice="%">22</Unit_MinRelHumidity>
+              <Selection_MinRelHumidity choice="Periodic day profiles">1</Selection_MinRelHumidity>
+              <TimeProfile_MinRelHumidity count="1">
+                <Period index="0">
+                  <Begin>
+                    <Year>2013</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2014</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="h">0</Hour>
+                      <Value unit="%">40</Value>
+                    </Item>
+                  </DayProfile>
+                </Period>
+              </TimeProfile_MinRelHumidity>
+              <Unit_MaxRelHumidity choice="%">22</Unit_MaxRelHumidity>
+              <Selection_MaxRelHumidity choice="Periodic day profiles">1</Selection_MaxRelHumidity>
+              <TimeProfile_MaxRelHumidity count="1">
+                <Period index="0">
+                  <Begin>
+                    <Year>2013</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2014</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="h">0</Hour>
+                      <Value unit="%">70</Value>
+                    </Item>
+                  </DayProfile>
+                </Period>
+              </TimeProfile_MaxRelHumidity>
+              <Unit_MaxCO2Concentration choice="ppmv">48</Unit_MaxCO2Concentration>
+              <Selection_MaxCO2Concentration choice="Periodic day profiles">1</Selection_MaxCO2Concentration>
+              <TimeProfile_MaxCO2Concentration count="1">
+                <Period index="0">
+                  <Begin>
+                    <Year>2013</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2014</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="h">0</Hour>
+                      <Value unit="ppmv">3000</Value>
+                    </Item>
+                  </DayProfile>
+                </Period>
+              </TimeProfile_MaxCO2Concentration>
+              <Unit_Ventilation choice="1/h">29</Unit_Ventilation>
+              <Selection_Ventilation choice="Periodic day profiles">1</Selection_Ventilation>
+              <TimeProfile_Ventilation count="1">
+                <Period index="0">
+                  <Begin>
+                    <Year>2013</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2014</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="h">0</Hour>
+                      <Value unit="1/h">0</Value>
+                    </Item>
+                  </DayProfile>
+                </Period>
+              </TimeProfile_Ventilation>
+              <Unit_MechanicalVentilation choice="1/h">29</Unit_MechanicalVentilation>
+              <Selection_MechanicalVentilation choice="Periodic day profiles">1</Selection_MechanicalVentilation>
+              <TimeProfile_MechanicalVentilation count="1">
+                <Period index="0">
+                  <Begin>
+                    <Year>2013</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2014</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="h">0</Hour>
+                      <Value unit="1/h">0</Value>
+                    </Item>
+                  </DayProfile>
+                </Period>
+              </TimeProfile_MechanicalVentilation>
+              <InfiltrationFactor unit="1/h">0</InfiltrationFactor>
+            </DesignConditions>
+            <Loads>
+              <Unit_MoistureLoad choice="g/h">56</Unit_MoistureLoad>
+              <Unit_HeatConvectiveLoad choice="W">53</Unit_HeatConvectiveLoad>
+              <Unit_HeatRadiantLoad choice="W">53</Unit_HeatRadiantLoad>
+              <Unit_CO2Load choice="g/h">56</Unit_CO2Load>
+              <Unit_Clothing choice="clo">61</Unit_Clothing>
+              <Unit_AirVelocity choice="m/s">62</Unit_AirVelocity>
+              <Unit_HumanActivity choice="met">60</Unit_HumanActivity>
+              <UsingFile>false</UsingFile>
+              <TimeProfile_Loads count="3">
+                <Period index="0">
+                  <Begin>
+                    <Year>2013</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2014</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="h">0</Hour>
+                      <Values>
+                        <MoistureLoad unit="g/h">0</MoistureLoad>
+                        <HeatConvectiveLoad unit="W">0</HeatConvectiveLoad>
+                        <HeatRadiantLoad unit="W">-0</HeatRadiantLoad>
+                        <CO2Load unit="g/h">0</CO2Load>
+                        <Clothing unit="clo">0</Clothing>
+                        <CountPeople>0</CountPeople>
+                        <AirVelocity unit="m/s">0</AirVelocity>
+                        <HumanActivity unit="met">0</HumanActivity>
+                      </Values>
+                    </Item>
+                  </DayProfile>
+                </Period>
+                <Period index="1">
+                  <Begin>
+                    <Year>2013</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2014</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="h">0</Hour>
+                      <Values>
+                        <MoistureLoad unit="g/h">0</MoistureLoad>
+                        <HeatConvectiveLoad unit="W">0</HeatConvectiveLoad>
+                        <HeatRadiantLoad unit="W">-0</HeatRadiantLoad>
+                        <CO2Load unit="g/h">0</CO2Load>
+                        <Clothing unit="clo">0</Clothing>
+                        <CountPeople>0</CountPeople>
+                        <AirVelocity unit="m/s">0</AirVelocity>
+                        <HumanActivity unit="met">0</HumanActivity>
+                      </Values>
+                    </Item>
+                  </DayProfile>
+                </Period>
+                <Period index="2">
+                  <Begin>
+                    <Year>2013</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2014</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="h">0</Hour>
+                      <Values>
+                        <MoistureLoad unit="g/h">0</MoistureLoad>
+                        <HeatConvectiveLoad unit="W">0</HeatConvectiveLoad>
+                        <HeatRadiantLoad unit="W">-0</HeatRadiantLoad>
+                        <CO2Load unit="g/h">0</CO2Load>
+                        <Clothing unit="clo">0</Clothing>
+                        <CountPeople>0</CountPeople>
+                        <AirVelocity unit="m/s">0</AirVelocity>
+                        <HumanActivity unit="met">0</HumanActivity>
+                      </Values>
+                    </Item>
+                  </DayProfile>
+                </Period>
+              </TimeProfile_Loads>
+            </Loads>
+            <IncludeHVACinCalculation>true</IncludeHVACinCalculation>
+            <CalcParameters>
+              <InitialAirTemperature unit="°C">20</InitialAirTemperature>
+              <InitialAirRelHumidity unit="%">55</InitialAirRelHumidity>
+              <InitialCO2Concentration unit="ppmv">400</InitialCO2Concentration>
+              <Unit_InitialCO2Concentration choice="ppmv">48</Unit_InitialCO2Concentration>
+              <AbsorptionSolarRadiationInnerAir unit="-">0.1</AbsorptionSolarRadiationInnerAir>
+              <CalculationAccuracyInnerTemperature unit="K">0.5</CalculationAccuracyInnerTemperature>
+              <CalculationAccuracyRelHumidity unit="%">0.5</CalculationAccuracyRelHumidity>
+              <SolarRadiationInnerDistribution choice="Proportional to area">1</SolarRadiationInnerDistribution>
+            </CalcParameters>
+            <ColorBoundaryCondition>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>0</Blue>
+            </ColorBoundaryCondition>
+            <IdentNrPH_Building choice="1">1</IdentNrPH_Building>
+            <OccupantQuantityUserDef unit="-">4</OccupantQuantityUserDef>
+            <ClearanceHeight_Selection choice="User defined">6</ClearanceHeight_Selection>
+            <ClearanceHeight unit="m">3</ClearanceHeight>
+            <SpecificHeatCapacity_Selection choice="Lightweight">1</SpecificHeatCapacity_Selection>
+            <SpecificHeatCapacity unit="Wh/m²K">60</SpecificHeatCapacity>
+            <SummerNaturalVentilationDay unit="1/h">0</SummerNaturalVentilationDay>
+            <SummerMechanicalVentilationNight unit="1/h">0</SummerMechanicalVentilationNight>
+            <SummerNaturalVentilationNight unit="1/h">0</SummerNaturalVentilationNight>
+            <HumiditySources unit="g/m²h">2</HumiditySources>
+            <HumidityCapacity unit="g/(g/kg)/m²">700</HumidityCapacity>
+          </Zone>
+        </Zones>
+        <BuildingGenerator>
+          <Main_Section choice="Rectangle">1</Main_Section>
+          <Roof_Art choice="Attic residential">1</Roof_Art>
+          <Bottom_Art choice="Cellar not heated">1</Bottom_Art>
+          <d1_Rectangle unit="m">12</d1_Rectangle>
+          <d2_Rectangle unit="m">9</d2_Rectangle>
+          <d1_LShape unit="m">7</d1_LShape>
+          <d2_LShape unit="m">7</d2_LShape>
+          <d3_LShape unit="m">5</d3_LShape>
+          <d4_LShape unit="m">7</d4_LShape>
+          <d1_TShape unit="m">7</d1_TShape>
+          <d2_TShape unit="m">6</d2_TShape>
+          <d3_TShape unit="m">5</d3_TShape>
+          <d4_TShape unit="m">4</d4_TShape>
+          <d5_TShape unit="m">7</d5_TShape>
+          <h1_Roof unit="m">0.5</h1_Roof>
+          <h2_Roof unit="m">1</h2_Roof>
+          <h3_Roof unit="m">2.65</h3_Roof>
+          <Inclination_Roof unit="">40</Inclination_Roof>
+          <GableEnds_Roof>false</GableEnds_Roof>
+          <Offset_Roof unit="m">0.8</Offset_Roof>
+          <h1_Cellar unit="m">1.5</h1_Cellar>
+          <h2_Cellar unit="m">2.5</h2_Cellar>
+          <Height_FirstStorey unit="m">2.8</Height_FirstStorey>
+          <Height_Stories unit="m">2.8</Height_Stories>
+          <CountStoreys>1</CountStoreys>
+          <GroupComponents>true</GroupComponents>
+          <TypeDefAzimuth choice="Azimuth">2</TypeDefAzimuth>
+          <OrientationMainFacade choice="South-West">3</OrientationMainFacade>
+          <AzimuthMainFacade_N unit="">180</AzimuthMainFacade_N>
+        </BuildingGenerator>
+        <CountGenerated>0</CountGenerated>
+        <HasBeenGenerated>false</HasBeenGenerated>
+        <HasBeenChangedSinceLastGeneration>false</HasBeenChangedSinceLastGeneration>
+      </Building>
+      <PassivehouseData>
+        <Version choice="7.1">4</Version>
+        <PH_Buildings count="1">
+          <PH_Building index="0">
+            <IdentNr>1</IdentNr>
+            <BuildingCategory choice="Residential">1</BuildingCategory>
+            <OccupancyTypeResidential choice="Residential">1</OccupancyTypeResidential>
+            <InternalGainsSetting choice="Default">1</InternalGainsSetting>
+            <OccupancySettingMethod choice="Verification">1</OccupancySettingMethod>
+            <NumberUnits unit="-">1</NumberUnits>
+            <TypeVentilationSystem choice="Balanced PH ventilation">1</TypeVentilationSystem>
+            <SummerNightVentilation choice="None">1</SummerNightVentilation>
+            <PositionPerimeterInsulation choice="Not defined">1</PositionPerimeterInsulation>
+            <IndoorTemperature unit="°C">20</IndoorTemperature>
+            <PreferredMinimumIndoorTemperatureNightVentilation unit="°C">20</PreferredMinimumIndoorTemperatureNightVentilation>
+            <FreshAirPerPerson unit="m³/h">30.5603</FreshAirPerPerson>
+            <BasementVentilationACH unit="1/h">0.5</BasementVentilationACH>
+            <PerimeterInsulationWidthDepth unit="m">1</PerimeterInsulationWidthDepth>
+            <ThicknessPerimeterInsulation unit="m">0.05</ThicknessPerimeterInsulation>
+            <ConductivityPerimeterInsulation unit="W/mK">0.1</ConductivityPerimeterInsulation>
+            <InfiltrationACH50 unit="1/h">0</InfiltrationACH50>
+            <NetAirVolumePressTest unit="m³">0</NetAirVolumePressTest>
+            <InternalHeatGains unit="W/m²">0</InternalHeatGains>
+            <MaxHumidityRatioDehumidification unit="g/kg">12</MaxHumidityRatioDehumidification>
+            <OverheatingTemperatureThreshold unit="°C">25</OverheatingTemperatureThreshold>
+            <MechanicalRoomTemperature unit="°C">20</MechanicalRoomTemperature>
+            <PhotovoltaicAnnualElectricityGeneration unit="W">0</PhotovoltaicAnnualElectricityGeneration>
+            <DHWConsumption60PersonDay unit="L/Person/day">0</DHWConsumption60PersonDay>
+            <AverageColdWaterTemperatureSupply unit="°C">0</AverageColdWaterTemperatureSupply>
+            <SettingFloorSlabType choice="User defined">6</SettingFloorSlabType>
+            <FloorSlabType choice="Unheated basement">2</FloorSlabType>
+            <PhaseShiftMonths>0</PhaseShiftMonths>
+            <ShiftOfAverageTemperature unit="K">0</ShiftOfAverageTemperature>
+            <HarmonicFraction unit="W/K">0</HarmonicFraction>
+            <DepthBasementBelowGroundSurface_Selection choice="User defined">6</DepthBasementBelowGroundSurface_Selection>
+            <DepthBasementBelowGroundSurface unit="m">0</DepthBasementBelowGroundSurface>
+            <HeightBasementWallAboveGrade_Selection choice="User defined">6</HeightBasementWallAboveGrade_Selection>
+            <HeightBasementWallAboveGrade unit="m">0</HeightBasementWallAboveGrade>
+            <CrawlspaceVentOpenings_Selection choice="User defined">6</CrawlspaceVentOpenings_Selection>
+            <CrawlspaceVentOpenings unit="m²">0</CrawlspaceVentOpenings>
+            <FloorSlabArea_Selection choice="User defined">6</FloorSlabArea_Selection>
+            <FloorSlabArea unit="m">0</FloorSlabArea>
+            <U_ValueBasementSlab_Selection choice="User defined">6</U_ValueBasementSlab_Selection>
+            <U_ValueBasementSlab unit="W/m²K">0</U_ValueBasementSlab>
+            <FloorCeilingArea_Selection choice="User defined">6</FloorCeilingArea_Selection>
+            <FloorCeilingArea unit="m²">0</FloorCeilingArea>
+            <U_ValueCeilingToUnheatedCellar_Selection choice="User defined">6</U_ValueCeilingToUnheatedCellar_Selection>
+            <U_ValueCeilingToUnheatedCellar unit="W/m²K">0</U_ValueCeilingToUnheatedCellar>
+            <U_ValueBasementWall_Selection choice="User defined">6</U_ValueBasementWall_Selection>
+            <U_ValueBasementWall unit="W/m²K">0</U_ValueBasementWall>
+            <U_ValueWallAboveGround_Selection choice="User defined">6</U_ValueWallAboveGround_Selection>
+            <U_ValueWallAboveGround unit="W/m²K">0</U_ValueWallAboveGround>
+            <FloorSlabPerimeter_Selection choice="User defined">6</FloorSlabPerimeter_Selection>
+            <FloorSlabPerimeter unit="m">0</FloorSlabPerimeter>
+            <BasementVolume_Selection choice="User defined">6</BasementVolume_Selection>
+            <BasementVolume unit="m³">0</BasementVolume>
+            <U_ValueCrawlspaceFloor_Selection choice="User defined">6</U_ValueCrawlspaceFloor_Selection>
+            <U_ValueCrawlspaceFloor unit="W/m²K">0</U_ValueCrawlspaceFloor>
+            <BuildingWindExposure choice="Several sides exposed - Moderate screening">2</BuildingWindExposure>
+          </PH_Building>
+        </PH_Buildings>
+      </PassivehouseData>
+      <HVAC />
+      <CalculationMode choice="Hygrothermal">2</CalculationMode>
+      <CalculationAccuracy choice="Medium">2</CalculationAccuracy>
+      <InitializationPeriod choice="No">2</InitializationPeriod>
+      <InterpolateClimateData>false</InterpolateClimateData>
+      <CalculationStart>
+        <Year>2013</Year>
+        <Month>1</Month>
+        <Day>1</Day>
+        <Hour>0</Hour>
+        <Minutes>0</Minutes>
+      </CalculationStart>
+      <CalculationEnd>
+        <Year>2014</Year>
+        <Month>1</Month>
+        <Day>1</Day>
+        <Hour>0</Hour>
+        <Minutes>0</Minutes>
+      </CalculationEnd>
+      <ResultsTimeStep>
+        <Hours>1</Hours>
+        <Minutes>0</Minutes>
+        <Seconds>0</Seconds>
+      </ResultsTimeStep>
+      <PreliminaryCalcTime>0</PreliminaryCalcTime>
+      <CopyDesignConditionsFrom choice="DIN 4108-2 Thermal protection standard">5</CopyDesignConditionsFrom>
+      <NewContinueCalculation choice="New calculation">1</NewContinueCalculation>
+      <ExportOfAllResults>false</ExportOfAllResults>
+    </Varaint>
+  </Variants>
+</WUFIplusProject>

@@ -1,0 +1,1111 @@
+<gbXML useSIUnitsForResults="true" xmlns:xhtml="http://www.w3.org/1999/xhtml" areaUnit="SquareMeters" xmlns="http://www.gbxml.org/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.gbxml.org/schema http://gbxml.org/schema/6-01/GreenBuildingXML_Ver6.01.xsd" version="6.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lengthUnit="Meters" temperatureUnit="C" SurfaceReferenceLocation="Centerline" volumeUnit="CubicMeters">
+  <Campus id="Facility">
+    <Name>Facility</Name>
+    <Building buildingType="Unknown" id="Building_1">
+      <Name>Building 1</Name>
+      <Area>80.000000</Area>
+      <Space buildingStoreyIdRef="Building_Story_1" zoneIdRef="zone_0" id="zone_0_space">
+        <Name>zone_0_space</Name>
+        <Area>80.000000</Area>
+        <Volume>240.000000</Volume>
+      </Space>
+      <BuildingStorey id="Building_Story_1">
+        <Name>Building Story 1</Name>
+        <Level>0.000000</Level>
+      </BuildingStorey>
+    </Building>
+    <Surface constructionIdRef="Exterior_Roof" id="zone_0_Srf_5" surfaceType="Roof">
+      <AdjacentSpaceId spaceIdRef="zone_0_space"/>
+      <RectangularGeometry>
+        <Azimuth>90</Azimuth>
+        <CartesianPoint>
+          <Coordinate>10.000000</Coordinate>
+          <Coordinate>8.000000</Coordinate>
+          <Coordinate>3.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>0</Tilt>
+        <Width>10.000000</Width>
+        <Height>8.000000</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>3.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>3.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>3.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>3.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+    </Surface>
+    <Surface constructionIdRef="Exterior_Wall" id="zone_0_Srf_0" surfaceType="ExteriorWall">
+      <AdjacentSpaceId spaceIdRef="zone_0_space"/>
+      <RectangularGeometry>
+        <Azimuth>180</Azimuth>
+        <CartesianPoint>
+          <Coordinate>0.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90</Tilt>
+        <Width>10.000000</Width>
+        <Height>3.000000</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>3.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>3.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_0_glz_4">
+        <RectangularGeometry>
+          <Azimuth>180</Azimuth>
+          <CartesianPoint>
+            <Coordinate>8.100000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.799999</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>8.100000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>8.100000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>9.900000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>9.900000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_0_glz_3">
+        <RectangularGeometry>
+          <Azimuth>180</Azimuth>
+          <CartesianPoint>
+            <Coordinate>6.100000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.800000</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>6.100000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>6.100000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>7.900000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>7.900000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_0_glz_2">
+        <RectangularGeometry>
+          <Azimuth>180</Azimuth>
+          <CartesianPoint>
+            <Coordinate>4.100000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.800000</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>4.100000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>4.100000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>5.900000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>5.900000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_0_glz_1">
+        <RectangularGeometry>
+          <Azimuth>180</Azimuth>
+          <CartesianPoint>
+            <Coordinate>2.100000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.800000</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>2.100000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>2.100000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>3.900000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>3.900000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_0_glz_0">
+        <RectangularGeometry>
+          <Azimuth>180</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.100000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.800000</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>0.100000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.100000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>1.900000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>1.900000</Coordinate>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+    </Surface>
+    <Surface constructionIdRef="Exterior_Wall" id="zone_0_Srf_2" surfaceType="ExteriorWall">
+      <AdjacentSpaceId spaceIdRef="zone_0_space"/>
+      <RectangularGeometry>
+        <Azimuth>0</Azimuth>
+        <CartesianPoint>
+          <Coordinate>10.000000</Coordinate>
+          <Coordinate>8.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90</Tilt>
+        <Width>10.000000</Width>
+        <Height>3.000000</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>3.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>3.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_2_glz_3">
+        <RectangularGeometry>
+          <Azimuth>0</Azimuth>
+          <CartesianPoint>
+            <Coordinate>3.900000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.800000</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>3.900000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>3.900000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>2.100000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>2.100000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_2_glz_1">
+        <RectangularGeometry>
+          <Azimuth>0</Azimuth>
+          <CartesianPoint>
+            <Coordinate>7.900000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.800000</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>7.900000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>7.900000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>6.100000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>6.100000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_2_glz_4">
+        <RectangularGeometry>
+          <Azimuth>0</Azimuth>
+          <CartesianPoint>
+            <Coordinate>1.900000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.800000</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>1.900000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>1.900000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.100000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.100000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_2_glz_0">
+        <RectangularGeometry>
+          <Azimuth>0</Azimuth>
+          <CartesianPoint>
+            <Coordinate>9.900000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.799999</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>9.900000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>9.900000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>8.100000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>8.100000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_2_glz_2">
+        <RectangularGeometry>
+          <Azimuth>0</Azimuth>
+          <CartesianPoint>
+            <Coordinate>5.900000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.800000</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>5.900000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>5.900000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>4.100000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>4.100000</Coordinate>
+              <Coordinate>8.000000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+    </Surface>
+    <Surface constructionIdRef="Interior_Floor" id="zone_0_Srf_4" surfaceType="SlabOnGrade">
+      <AdjacentSpaceId spaceIdRef="zone_0_space"/>
+      <RectangularGeometry>
+        <Azimuth>90</Azimuth>
+        <CartesianPoint>
+          <Coordinate>10.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>180</Tilt>
+        <Width>10.000000</Width>
+        <Height>8.000000</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+    </Surface>
+    <Surface constructionIdRef="Exterior_Wall" id="zone_0_Srf_1" surfaceType="ExteriorWall">
+      <AdjacentSpaceId spaceIdRef="zone_0_space"/>
+      <RectangularGeometry>
+        <Azimuth>90</Azimuth>
+        <CartesianPoint>
+          <Coordinate>10.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90</Tilt>
+        <Width>8.000000</Width>
+        <Height>3.000000</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>3.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>3.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_1_glz_3">
+        <RectangularGeometry>
+          <Azimuth>90</Azimuth>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>6.100000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.800000</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>6.100000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>6.100000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>7.900000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>7.900000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_1_glz_0">
+        <RectangularGeometry>
+          <Azimuth>90</Azimuth>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>0.100000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.800000</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>0.100000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>0.100000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>1.900000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>1.900000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_1_glz_2">
+        <RectangularGeometry>
+          <Azimuth>90</Azimuth>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>4.100000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.800000</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>4.100000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>4.100000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>5.900000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>5.900000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_1_glz_1">
+        <RectangularGeometry>
+          <Azimuth>90</Azimuth>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>2.100000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.800000</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>2.100000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>2.100000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>3.900000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>3.900000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+    </Surface>
+    <Surface constructionIdRef="Exterior_Wall" id="zone_0_Srf_3" surfaceType="ExteriorWall">
+      <AdjacentSpaceId spaceIdRef="zone_0_space"/>
+      <RectangularGeometry>
+        <Azimuth>270</Azimuth>
+        <CartesianPoint>
+          <Coordinate>0.000000</Coordinate>
+          <Coordinate>8.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90</Tilt>
+        <Width>8.000000</Width>
+        <Height>3.000000</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>3.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>8.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>3.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_3_glz_3">
+        <RectangularGeometry>
+          <Azimuth>270</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>1.900000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.800000</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>1.900000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>1.900000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>0.100000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>0.100000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_3_glz_1">
+        <RectangularGeometry>
+          <Azimuth>270</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>5.900000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.800000</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>5.900000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>5.900000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>4.100000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>4.100000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_3_glz_2">
+        <RectangularGeometry>
+          <Azimuth>270</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>3.900000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.800000</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>3.900000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>3.900000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>2.100000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>2.100000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening windowTypeIdRef="Exterior_Window" openingType="FixedWindow" id="zone_0_Srf_3_glz_0">
+        <RectangularGeometry>
+          <Azimuth>270</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>7.900000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.800000</Width>
+          <Height>2.000000</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>7.900000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>7.900000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>6.100000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>6.100000</Coordinate>
+              <Coordinate>2.800000</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+    </Surface>
+  </Campus>
+  <Construction id="Exterior_Wall">
+    <Name>Exterior Wall</Name>
+    <LayerId layerIdRef="M01_100mm_brick_Layer"/>
+    <LayerId layerIdRef="M15_200mm_heavyweight_concrete_Layer"/>
+    <LayerId layerIdRef="I02_50mm_insulation_board_Layer"/>
+    <LayerId layerIdRef="Material_Air_Gap_1_Layer"/>
+    <LayerId layerIdRef="G01a_19mm_gypsum_board_Layer"/>
+  </Construction>
+  <Construction id="Interior_Floor">
+    <Name>Interior Floor</Name>
+    <LayerId layerIdRef="F16_Acoustic_tile_Layer"/>
+    <LayerId layerIdRef="Material_Air_Gap_2_Layer"/>
+    <LayerId layerIdRef="M11_100mm_lightweight_concrete_Layer"/>
+  </Construction>
+  <Construction id="Exterior_Roof">
+    <Name>Exterior Roof</Name>
+    <LayerId layerIdRef="M11_100mm_lightweight_concrete_Layer"/>
+    <LayerId layerIdRef="Material_Air_Gap_2_Layer"/>
+    <LayerId layerIdRef="F16_Acoustic_tile_Layer"/>
+  </Construction>
+  <WindowType id="Exterior_Window">
+    <Name>Exterior Window</Name>
+  </WindowType>
+  <Layer id="M11_100mm_lightweight_concrete_Layer">
+    <Name>M11 100mm lightweight concrete Layer</Name>
+    <MaterialId materialIdRef="M11_100mm_lightweight_concrete"/>
+  </Layer>
+  <Layer id="Material_Air_Gap_2_Layer">
+    <Name>Material Air Gap 2 Layer</Name>
+    <MaterialId materialIdRef="Material_Air_Gap_2"/>
+  </Layer>
+  <Layer id="G01a_19mm_gypsum_board_Layer">
+    <Name>G01a 19mm gypsum board Layer</Name>
+    <MaterialId materialIdRef="G01a_19mm_gypsum_board"/>
+  </Layer>
+  <Layer id="M15_200mm_heavyweight_concrete_Layer">
+    <Name>M15 200mm heavyweight concrete Layer</Name>
+    <MaterialId materialIdRef="M15_200mm_heavyweight_concrete"/>
+  </Layer>
+  <Layer id="Material_Air_Gap_1_Layer">
+    <Name>Material Air Gap 1 Layer</Name>
+    <MaterialId materialIdRef="Material_Air_Gap_1"/>
+  </Layer>
+  <Layer id="M01_100mm_brick_Layer">
+    <Name>M01 100mm brick Layer</Name>
+    <MaterialId materialIdRef="M01_100mm_brick"/>
+  </Layer>
+  <Layer id="F16_Acoustic_tile_Layer">
+    <Name>F16 Acoustic tile Layer</Name>
+    <MaterialId materialIdRef="F16_Acoustic_tile"/>
+  </Layer>
+  <Layer id="I02_50mm_insulation_board_Layer">
+    <Name>I02 50mm insulation board Layer</Name>
+    <MaterialId materialIdRef="I02_50mm_insulation_board"/>
+  </Layer>
+  <Material id="M11_100mm_lightweight_concrete">
+    <Name>M11 100mm lightweight concrete</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.1</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.1</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.5</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.5</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.5</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.5</Reflectance>
+    <Roughness value="MediumRough"/>
+    <Thickness unit="Meters">0.1016</Thickness>
+    <Conductivity unit="WPerMeterK">0.53</Conductivity>
+    <Density unit="KgPerCubicM">1280</Density>
+    <SpecificHeat unit="JPerKgK">840</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.9</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.9</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.5</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.5</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.5</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.5</Absorptance>
+  </Material>
+  <Material id="Material_Air_Gap_2">
+    <Name>Material Air Gap 2</Name>
+    <R-value unit="SquareMeterKPerW">0.18</R-value>
+  </Material>
+  <Material id="G01a_19mm_gypsum_board">
+    <Name>G01a 19mm gypsum board</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.1</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.1</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.6</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.6</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.6</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.6</Reflectance>
+    <Roughness value="MediumSmooth"/>
+    <Thickness unit="Meters">0.019</Thickness>
+    <Conductivity unit="WPerMeterK">0.16</Conductivity>
+    <Density unit="KgPerCubicM">800</Density>
+    <SpecificHeat unit="JPerKgK">1090</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.9</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.9</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.4</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.4</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.4</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.4</Absorptance>
+  </Material>
+  <Material id="M15_200mm_heavyweight_concrete">
+    <Name>M15 200mm heavyweight concrete</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.1</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.1</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.3</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.3</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.3</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.3</Reflectance>
+    <Roughness value="MediumRough"/>
+    <Thickness unit="Meters">0.2032</Thickness>
+    <Conductivity unit="WPerMeterK">1.95</Conductivity>
+    <Density unit="KgPerCubicM">2240</Density>
+    <SpecificHeat unit="JPerKgK">900</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.9</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.9</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.7</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.7</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.7</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.7</Absorptance>
+  </Material>
+  <Material id="Material_Air_Gap_1">
+    <Name>Material Air Gap 1</Name>
+    <R-value unit="SquareMeterKPerW">0.15</R-value>
+  </Material>
+  <Material id="M01_100mm_brick">
+    <Name>M01 100mm brick</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.1</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.1</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.3</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.3</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.3</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.3</Reflectance>
+    <Roughness value="MediumRough"/>
+    <Thickness unit="Meters">0.1016</Thickness>
+    <Conductivity unit="WPerMeterK">0.89</Conductivity>
+    <Density unit="KgPerCubicM">1920</Density>
+    <SpecificHeat unit="JPerKgK">790</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.9</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.9</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.7</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.7</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.7</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.7</Absorptance>
+  </Material>
+  <Material id="F16_Acoustic_tile">
+    <Name>F16 Acoustic tile</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.1</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.1</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.7</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.7</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.7</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.7</Reflectance>
+    <Roughness value="MediumSmooth"/>
+    <Thickness unit="Meters">0.0191</Thickness>
+    <Conductivity unit="WPerMeterK">0.06</Conductivity>
+    <Density unit="KgPerCubicM">368</Density>
+    <SpecificHeat unit="JPerKgK">590</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.9</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.9</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.3</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.3</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.3</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.3</Absorptance>
+  </Material>
+  <Material id="I02_50mm_insulation_board">
+    <Name>I02 50mm insulation board</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.1</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.1</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.3</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.3</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.3</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.3</Reflectance>
+    <Roughness value="MediumRough"/>
+    <Thickness unit="Meters">0.0508</Thickness>
+    <Conductivity unit="WPerMeterK">0.03</Conductivity>
+    <Density unit="KgPerCubicM">43</Density>
+    <SpecificHeat unit="JPerKgK">1210</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.9</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.9</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.7</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.7</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.7</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.7</Absorptance>
+  </Material>
+  <Zone id="zone_0">
+    <Name>zone_0</Name>
+  </Zone>
+  <DocumentHistory>
+    <CreatedBy programId="openstudio" personId="unknown" date="2017-05-05T00:20:07-04:00"/>
+    <ProgramInfo id="openstudio">
+      <ProductName>OpenStudio</ProductName>
+      <Version>1.13.2</Version>
+      <Platform>Windows</Platform>
+      <ProjectEntity/>
+    </ProgramInfo>
+    <PersonInfo id="unknown">
+      <FirstName>Unknown</FirstName>
+      <LastName>Unknown</LastName>
+    </PersonInfo>
+  </DocumentHistory>
+</gbXML>

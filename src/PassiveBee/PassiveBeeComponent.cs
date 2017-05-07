@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using Grasshopper.Kernel;
 using Rhino.Geometry;
+using Grasshopper.Kernel.Types;
 
 namespace PassiveBee
 {
@@ -27,7 +28,7 @@ namespace PassiveBee
         /// </summary>
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
         {
-            pManager.AddBrepParameter("Surfaces", "Srfs","Envelope surfaces",GH_ParamAccess.list);
+            pManager.AddBrepParameter("Surfaces", "Srfs","Envelope surfaces",GH_ParamAccess.item);
             pManager[0].DataMapping = GH_DataMapping.Flatten;
         }
 
@@ -37,6 +38,7 @@ namespace PassiveBee
         protected override void RegisterOutputParams(GH_Component.GH_OutputParamManager pManager)
         {
             pManager.AddTextParameter("out", "out", "out", GH_ParamAccess.item);
+            
         }
 
         /// <summary>
@@ -46,8 +48,23 @@ namespace PassiveBee
         /// to store data in output parameters.</param>
         protected override void SolveInstance(IGH_DataAccess DA)
         {
+            var inBrep = new GH_Brep();
+            DA.GetData(0, ref inBrep);
 
-            DA.SetData(0,"PassiveBee");
+            
+            var HBID = (inBrep.Value.UserDictionary["HBID"] as string).Split('#');
+            string baseKey = HBID[0];
+            string key = HBID[1];
+
+
+            var pyRun = Rhino.Runtime.PythonScript.Create();
+            string pyScript = @"import scriptcontext as sc;";
+            pyScript += @"HBHive = sc.sticky['HBHive']";
+            pyScript += "['" + baseKey + "']['" + key + "']";
+
+            dynamic HBObjects = pyRun.EvaluateExpression(pyScript,"HBHive");
+            
+            DA.SetDataList(0, HBID);
 
         }
 
