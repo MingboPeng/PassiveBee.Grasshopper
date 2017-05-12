@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Xml;
 using System.Collections.Generic;
 
 using Grasshopper.Kernel;
 using Rhino.Geometry;
 using Grasshopper.Kernel.Types;
+using System.Dynamic;
+using Newtonsoft.Json;
 
 namespace PassiveBee
 {
@@ -38,7 +41,8 @@ namespace PassiveBee
         protected override void RegisterOutputParams(GH_Component.GH_OutputParamManager pManager)
         {
             pManager.AddTextParameter("out", "out", "out", GH_ParamAccess.item);
-            
+            pManager.AddTextParameter("json", "json", "json", GH_ParamAccess.item);
+
         }
 
         /// <summary>
@@ -63,8 +67,18 @@ namespace PassiveBee
             pyScript += "['" + baseKey + "']['" + key + "']";
 
             dynamic HBObjects = pyRun.EvaluateExpression(pyScript,"HBHive");
+
+
+            if (HBObjects !=null)
+            {
+                var PassiveBee = new PassiveBeeObject();
+                PassiveBee.WriteWufiXml("tet1");
+            }
             
+            //string jsonStrings = JsonConvert.SerializeObject(HBObjects);
+
             DA.SetDataList(0, HBID);
+            //DA.SetData(1, HBObjects);
 
         }
 
