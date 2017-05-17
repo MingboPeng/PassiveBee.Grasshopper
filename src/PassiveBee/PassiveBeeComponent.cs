@@ -31,7 +31,7 @@ namespace PassiveBee
         /// </summary>
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
         {
-            pManager.AddBrepParameter("Surfaces", "Srfs","Envelope surfaces",GH_ParamAccess.item);
+            pManager.AddBrepParameter("Surfaces", "Srfs","Envelope surfaces",GH_ParamAccess.list);
             pManager[0].DataMapping = GH_DataMapping.Flatten;
         }
 
@@ -52,9 +52,10 @@ namespace PassiveBee
         /// to store data in output parameters.</param>
         protected override void SolveInstance(IGH_DataAccess DA)
         {
-            var inBrep = new GH_Brep();
-            DA.GetData(0, ref inBrep);
+            var inBreps = new List <GH_Brep>();
+            DA.GetDataList(0,  inBreps);
 
+            GH_Brep inBrep = inBreps[0];
             
             var HBID = (inBrep.Value.UserDictionary["HBID"] as string).Split('#');
             string baseKey = HBID[0];
@@ -62,23 +63,38 @@ namespace PassiveBee
 
 
             var pyRun = Rhino.Runtime.PythonScript.Create();
-            string pyScript = @"import scriptcontext as sc;";
-            pyScript += @"HBHive = sc.sticky['HBHive']";
-            pyScript += "['" + baseKey + "']['" + key + "']";
+            string pyScript = "";
+            pyScript += "import scriptcontext as sc;";
+            pyScript += "HBObjects=[];";
+            pyScript += "for HBS in HBO.surfaces:";
+            pyScript += string.Format(" HBObjects.append(sc.sticky['HBHive']['{0}']['{1}']);", baseKey,key);
+            //pyScript += "points=[];";
 
-            dynamic HBObjects = pyRun.EvaluateExpression(pyScript,"HBHive");
 
+            //pyScript += "\nif HBO.objectType == 'HBZone':";
+            //pyScript += "\n for HBS in HBO.surfaces:";
+            //pyScript += "   points.append(HBS.extractPoints(1, True))";
 
-            if (HBObjects !=null)
+            
+
+            pyRun.ExecuteScript(pyScript);
+            var HBObjects = pyRun.GetVariable("HBObjects") as IList< object>;
+
+            //var backFromPython = pyRun.GetVariable("points") as IList<object>;
+            var backFromPython = HBObjects.GetType().GetProperties();
+            //var firstItem = backFromPython[0] as IList<object>;
+            //var firstPt = firstItem[0];
+
+            if (backFromPython !=null)
             {
-                var PassiveBee = new PassiveBeeObject();
-                PassiveBee.WriteWufiXml("tet1");
+                //var PassiveBee = new PassiveBeeObject();
+                //PassiveBee.WriteWufiXml("tet1");
             }
             
             //string jsonStrings = JsonConvert.SerializeObject(HBObjects);
 
             DA.SetDataList(0, HBID);
-            //DA.SetData(1, HBObjects);
+            DA.SetData(1, backFromPython);
 
         }
 

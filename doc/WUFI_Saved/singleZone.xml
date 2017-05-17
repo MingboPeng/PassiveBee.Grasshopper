@@ -1,0 +1,1661 @@
+<WUFIplusProject>
+  <DataVersion>45</DataVersion>
+  <UnitSystem choice="IP">2</UnitSystem>
+  <ProgramVersion>3.1.0.3</ProgramVersion>
+  <Scope>3</Scope>
+  <DimensionsVisualizedGeometry>2</DimensionsVisualizedGeometry>
+  <ProjectData>
+    <Customer_Name />
+    <Customer_Locality>Locationsss</Customer_Locality>
+    <Customer_PostalCode />
+    <Customer_Street />
+    <Customer_Tel />
+    <Customer_Email />
+    <Building_Name />
+    <Year_Construction />
+    <Building_Locality />
+    <Building_PostalCode />
+    <Building_Street />
+    <OwnerIsClient>false</OwnerIsClient>
+    <Owner_Name />
+    <Owner_Locality />
+    <Owner_PostalCode />
+    <Owner_Street />
+    <Responsible_Name />
+    <Responsible_Locality />
+    <Responsible_PostalCode />
+    <Responsible_Street />
+    <Responsible_Tel />
+    <Responsible_LicenseNr />
+    <Responsible_Email />
+    <Date_Project>
+      <Year>2017</Year>
+      <Month>5</Month>
+      <Day>4</Day>
+      <Hour>0</Hour>
+      <Minutes>0</Minutes>
+    </Date_Project>
+    <WhiteBackgroundPictureBuilding>true</WhiteBackgroundPictureBuilding>
+  </ProjectData>
+  <Variants count="1">
+    <Variant index="0">
+      <IdentNr>1</IdentNr>
+      <Name />
+      <Remarks />
+      <RelativeVariant>true</RelativeVariant>
+      <Graphics_3D unit="m">
+        <Vertices count="24">
+          <Vertix index="0">
+            <X>-20.5</X>
+            <Y>-27</Y>
+            <Z>-4.5</Z>
+            <IdentNr>1</IdentNr>
+          </Vertix>
+          <Vertix index="1">
+            <X>20.5</X>
+            <Y>-27</Y>
+            <Z>-4.5</Z>
+            <IdentNr>2</IdentNr>
+          </Vertix>
+          <Vertix index="2">
+            <X>20.5</X>
+            <Y>-27</Y>
+            <Z>4.5</Z>
+            <IdentNr>3</IdentNr>
+          </Vertix>
+          <Vertix index="3">
+            <X>-20.5</X>
+            <Y>-27</Y>
+            <Z>4.5</Z>
+            <IdentNr>4</IdentNr>
+          </Vertix>
+          <Vertix index="4">
+            <X>20.5</X>
+            <Y>4</Y>
+            <Z>-4.5</Z>
+            <IdentNr>5</IdentNr>
+          </Vertix>
+          <Vertix index="5">
+            <X>20.5</X>
+            <Y>4</Y>
+            <Z>4.5</Z>
+            <IdentNr>6</IdentNr>
+          </Vertix>
+          <Vertix index="6">
+            <X>3.5</X>
+            <Y>4</Y>
+            <Z>4.5</Z>
+            <IdentNr>7</IdentNr>
+          </Vertix>
+          <Vertix index="7">
+            <X>3.5</X>
+            <Y>4</Y>
+            <Z>-4.5</Z>
+            <IdentNr>8</IdentNr>
+          </Vertix>
+          <Vertix index="8">
+            <X>3.5</X>
+            <Y>27</Y>
+            <Z>-4.5</Z>
+            <IdentNr>9</IdentNr>
+          </Vertix>
+          <Vertix index="9">
+            <X>3.5</X>
+            <Y>27</Y>
+            <Z>4.5</Z>
+            <IdentNr>10</IdentNr>
+          </Vertix>
+          <Vertix index="10">
+            <X>-20.5</X>
+            <Y>27</Y>
+            <Z>-4.5</Z>
+            <IdentNr>11</IdentNr>
+          </Vertix>
+          <Vertix index="11">
+            <X>-20.5</X>
+            <Y>27</Y>
+            <Z>4.5</Z>
+            <IdentNr>12</IdentNr>
+          </Vertix>
+          <Vertix index="12">
+            <X>3.5</X>
+            <Y>9.607241</Y>
+            <Z>-2.5</Z>
+            <IdentNr>13</IdentNr>
+          </Vertix>
+          <Vertix index="13">
+            <X>3.5</X>
+            <Y>15.5</Y>
+            <Z>-2.5</Z>
+            <IdentNr>14</IdentNr>
+          </Vertix>
+          <Vertix index="14">
+            <X>3.5</X>
+            <Y>15.5</Y>
+            <Z>1.5</Z>
+            <IdentNr>15</IdentNr>
+          </Vertix>
+          <Vertix index="15">
+            <X>3.5</X>
+            <Y>9.607241</Y>
+            <Z>1.5</Z>
+            <IdentNr>16</IdentNr>
+          </Vertix>
+          <Vertix index="16">
+            <X>1.562238</X>
+            <Y>27</Y>
+            <Z>-2.5</Z>
+            <IdentNr>17</IdentNr>
+          </Vertix>
+          <Vertix index="17">
+            <X>-12.111936</X>
+            <Y>27</Y>
+            <Z>-2.5</Z>
+            <IdentNr>18</IdentNr>
+          </Vertix>
+          <Vertix index="18">
+            <X>-12.111936</X>
+            <Y>27</Y>
+            <Z>1.5</Z>
+            <IdentNr>19</IdentNr>
+          </Vertix>
+          <Vertix index="19">
+            <X>1.562238</X>
+            <Y>27</Y>
+            <Z>1.5</Z>
+            <IdentNr>20</IdentNr>
+          </Vertix>
+          <Vertix index="20">
+            <X>20.5</X>
+            <Y>-25.071983</Y>
+            <Z>-3.5</Z>
+            <IdentNr>21</IdentNr>
+          </Vertix>
+          <Vertix index="21">
+            <X>20.5</X>
+            <Y>0.075311</Y>
+            <Z>-3.5</Z>
+            <IdentNr>22</IdentNr>
+          </Vertix>
+          <Vertix index="22">
+            <X>20.5</X>
+            <Y>0.075311</Y>
+            <Z>2.63859</Z>
+            <IdentNr>23</IdentNr>
+          </Vertix>
+          <Vertix index="23">
+            <X>20.5</X>
+            <Y>-25.071983</Y>
+            <Z>2.63859</Z>
+            <IdentNr>24</IdentNr>
+          </Vertix>
+        </Vertices>
+        <Polygons count="11">
+          <Polygon index="0">
+            <IdentNr>10000000</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>-1</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">1</IdentNr>
+              <IdentNr index="1">2</IdentNr>
+              <IdentNr index="2">3</IdentNr>
+              <IdentNr index="3">4</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="1">
+            <IdentNr>10000001</IdentNr>
+            <NormalVectorX>1</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">3</IdentNr>
+              <IdentNr index="1">2</IdentNr>
+              <IdentNr index="2">5</IdentNr>
+              <IdentNr index="3">6</IdentNr>
+            </IdentNrPoints>
+            <IdentNrPolygonsInside count="1">
+              <IdentNr index="0">10000010</IdentNr>
+            </IdentNrPolygonsInside>
+          </Polygon>
+          <Polygon index="2">
+            <IdentNr>10000002</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>1</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">5</IdentNr>
+              <IdentNr index="1">6</IdentNr>
+              <IdentNr index="2">7</IdentNr>
+              <IdentNr index="3">8</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="3">
+            <IdentNr>10000003</IdentNr>
+            <NormalVectorX>1</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">8</IdentNr>
+              <IdentNr index="1">9</IdentNr>
+              <IdentNr index="2">10</IdentNr>
+              <IdentNr index="3">7</IdentNr>
+            </IdentNrPoints>
+            <IdentNrPolygonsInside count="1">
+              <IdentNr index="0">10000008</IdentNr>
+            </IdentNrPolygonsInside>
+          </Polygon>
+          <Polygon index="4">
+            <IdentNr>10000004</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>1</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">10</IdentNr>
+              <IdentNr index="1">9</IdentNr>
+              <IdentNr index="2">11</IdentNr>
+              <IdentNr index="3">12</IdentNr>
+            </IdentNrPoints>
+            <IdentNrPolygonsInside count="1">
+              <IdentNr index="0">10000009</IdentNr>
+            </IdentNrPolygonsInside>
+          </Polygon>
+          <Polygon index="5">
+            <IdentNr>10000005</IdentNr>
+            <NormalVectorX>-1</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">1</IdentNr>
+              <IdentNr index="1">4</IdentNr>
+              <IdentNr index="2">12</IdentNr>
+              <IdentNr index="3">11</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="6">
+            <IdentNr>10000006</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>-1</NormalVectorZ>
+            <IdentNrPoints count="6">
+              <IdentNr index="0">1</IdentNr>
+              <IdentNr index="1">2</IdentNr>
+              <IdentNr index="2">5</IdentNr>
+              <IdentNr index="3">8</IdentNr>
+              <IdentNr index="4">9</IdentNr>
+              <IdentNr index="5">11</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="7">
+            <IdentNr>10000007</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>1</NormalVectorZ>
+            <IdentNrPoints count="6">
+              <IdentNr index="0">4</IdentNr>
+              <IdentNr index="1">3</IdentNr>
+              <IdentNr index="2">6</IdentNr>
+              <IdentNr index="3">7</IdentNr>
+              <IdentNr index="4">10</IdentNr>
+              <IdentNr index="5">12</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="8">
+            <IdentNr>10000008</IdentNr>
+            <NormalVectorX>1</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">13</IdentNr>
+              <IdentNr index="1">14</IdentNr>
+              <IdentNr index="2">15</IdentNr>
+              <IdentNr index="3">16</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="9">
+            <IdentNr>10000009</IdentNr>
+            <NormalVectorX>0</NormalVectorX>
+            <NormalVectorY>1</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">17</IdentNr>
+              <IdentNr index="1">18</IdentNr>
+              <IdentNr index="2">19</IdentNr>
+              <IdentNr index="3">20</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+          <Polygon index="10">
+            <IdentNr>10000010</IdentNr>
+            <NormalVectorX>1</NormalVectorX>
+            <NormalVectorY>0</NormalVectorY>
+            <NormalVectorZ>0</NormalVectorZ>
+            <IdentNrPoints count="4">
+              <IdentNr index="0">21</IdentNr>
+              <IdentNr index="1">22</IdentNr>
+              <IdentNr index="2">23</IdentNr>
+              <IdentNr index="3">24</IdentNr>
+            </IdentNrPoints>
+          </Polygon>
+        </Polygons>
+      </Graphics_3D>
+      <ClimateLocation>
+        <Selection choice="From WUFI database">1</Selection>
+        <IDNr_DB>0</IDNr_DB>
+        <Name_DB />
+        <Comment_DB />
+        <Latitude_DB unit="°" />
+        <Longitude_DB unit="°" />
+        <HeightNN_DB unit="ft" />
+        <dUTC_DB />
+        <FileName_DB />
+        <Type_DB />
+        <CatalogueNr_DB>0</CatalogueNr_DB>
+        <MapNr_DB>0</MapNr_DB>
+        <Albedo choice="User defined">-2</Albedo>
+        <GroundReflShort unit="-">0.2</GroundReflShort>
+        <GroundReflLong unit="-">0.1</GroundReflLong>
+        <GroundEmission unit="-">0.9</GroundEmission>
+        <CloudIndex unit="-">0.66</CloudIndex>
+        <CO2concenration unit="mg/m³">350</CO2concenration>
+        <Unit_CO2concentration choice="ppmv">48</Unit_CO2concentration>
+        <BoundaryCondition>
+          <Type>4</Type>
+          <IdentNr>-1</IdentNr>
+          <IdentNr_Object>-1</IdentNr_Object>
+          <ThermalResistance_Horizontal unit="hr ft² °F/Btu">0.22713</ThermalResistance_Horizontal>
+          <ThermalResistance_Down unit="hr ft² °F/Btu">0.22713</ThermalResistance_Down>
+          <ThermalResistance_Up unit="hr ft² °F/Btu">0.22713</ThermalResistance_Up>
+          <Color>
+            <Alpha>255</Alpha>
+            <Red>0</Red>
+            <Green>255</Green>
+            <Blue>255</Blue>
+          </Color>
+        </BoundaryCondition>
+        <PH_ClimateLocation>
+          <Selection choice="From map (database)">2</Selection>
+          <Latitude unit="°" />
+          <HeightNNWeatherStation unit="ft" />
+          <Longitude unit="°" />
+          <HeightNNBuilding unit="ft" />
+          <DailyTemperatureSwingSummer unit="°F" />
+          <AverageWindSpeed unit="ft/s">13.1234</AverageWindSpeed>
+          <GroundThermalConductivity unit="Btu/hr ft °F">1.1556</GroundThermalConductivity>
+          <GroundHeatCapacitiy unit="Btu/lb°F">0.2388</GroundHeatCapacitiy>
+          <GroundDensity unit="lb/ft³">124.8559</GroundDensity>
+          <DepthGroundwater unit="ft">9.8425</DepthGroundwater>
+          <FlowRateGroundwater unit="ft/d">0.164</FlowRateGroundwater>
+          <TemperatureMonthly unit="°F" count="16">
+            <Item index="0" />
+            <Item index="1" />
+            <Item index="2" />
+            <Item index="3" />
+            <Item index="4" />
+            <Item index="5" />
+            <Item index="6" />
+            <Item index="7" />
+            <Item index="8" />
+            <Item index="9" />
+            <Item index="10" />
+            <Item index="11" />
+            <Item index="12" />
+            <Item index="13" />
+            <Item index="14" />
+            <Item index="15" />
+          </TemperatureMonthly>
+          <DewPointTemperatureMonthly unit="°F" count="16">
+            <Item index="0" />
+            <Item index="1" />
+            <Item index="2" />
+            <Item index="3" />
+            <Item index="4" />
+            <Item index="5" />
+            <Item index="6" />
+            <Item index="7" />
+            <Item index="8" />
+            <Item index="9" />
+            <Item index="10" />
+            <Item index="11" />
+            <Item index="12" />
+            <Item index="13" />
+            <Item index="14" />
+            <Item index="15" />
+          </DewPointTemperatureMonthly>
+          <SkyTemperatureMonthly unit="°F" count="16">
+            <Item index="0" />
+            <Item index="1" />
+            <Item index="2" />
+            <Item index="3" />
+            <Item index="4" />
+            <Item index="5" />
+            <Item index="6" />
+            <Item index="7" />
+            <Item index="8" />
+            <Item index="9" />
+            <Item index="10" />
+            <Item index="11" />
+            <Item index="12" />
+            <Item index="13" />
+            <Item index="14" />
+            <Item index="15" />
+          </SkyTemperatureMonthly>
+          <GroundTemperatureMonthly unit="°F" count="16">
+            <Item index="0" />
+            <Item index="1" />
+            <Item index="2" />
+            <Item index="3" />
+            <Item index="4" />
+            <Item index="5" />
+            <Item index="6" />
+            <Item index="7" />
+            <Item index="8" />
+            <Item index="9" />
+            <Item index="10" />
+            <Item index="11" />
+            <Item index="12" />
+            <Item index="13" />
+            <Item index="14" />
+            <Item index="15" />
+          </GroundTemperatureMonthly>
+          <NorthSolarRadiationMonthly unit="kBtu/ft²Month" count="16">
+            <Item index="0" />
+            <Item index="1" />
+            <Item index="2" />
+            <Item index="3" />
+            <Item index="4" />
+            <Item index="5" />
+            <Item index="6" />
+            <Item index="7" />
+            <Item index="8" />
+            <Item index="9" />
+            <Item index="10" />
+            <Item index="11" />
+            <Item index="12" />
+            <Item index="13" />
+            <Item index="14" />
+            <Item index="15" />
+          </NorthSolarRadiationMonthly>
+          <EastSolarRadiationMonthly unit="kBtu/ft²Month" count="16">
+            <Item index="0" />
+            <Item index="1" />
+            <Item index="2" />
+            <Item index="3" />
+            <Item index="4" />
+            <Item index="5" />
+            <Item index="6" />
+            <Item index="7" />
+            <Item index="8" />
+            <Item index="9" />
+            <Item index="10" />
+            <Item index="11" />
+            <Item index="12" />
+            <Item index="13" />
+            <Item index="14" />
+            <Item index="15" />
+          </EastSolarRadiationMonthly>
+          <SouthSolarRadiationMonthly unit="kBtu/ft²Month" count="16">
+            <Item index="0" />
+            <Item index="1" />
+            <Item index="2" />
+            <Item index="3" />
+            <Item index="4" />
+            <Item index="5" />
+            <Item index="6" />
+            <Item index="7" />
+            <Item index="8" />
+            <Item index="9" />
+            <Item index="10" />
+            <Item index="11" />
+            <Item index="12" />
+            <Item index="13" />
+            <Item index="14" />
+            <Item index="15" />
+          </SouthSolarRadiationMonthly>
+          <WestSolarRadiationMonthly unit="kBtu/ft²Month" count="16">
+            <Item index="0" />
+            <Item index="1" />
+            <Item index="2" />
+            <Item index="3" />
+            <Item index="4" />
+            <Item index="5" />
+            <Item index="6" />
+            <Item index="7" />
+            <Item index="8" />
+            <Item index="9" />
+            <Item index="10" />
+            <Item index="11" />
+            <Item index="12" />
+            <Item index="13" />
+            <Item index="14" />
+            <Item index="15" />
+          </WestSolarRadiationMonthly>
+          <GlobalSolarRadiationMonthly unit="kBtu/ft²Month" count="16">
+            <Item index="0" />
+            <Item index="1" />
+            <Item index="2" />
+            <Item index="3" />
+            <Item index="4" />
+            <Item index="5" />
+            <Item index="6" />
+            <Item index="7" />
+            <Item index="8" />
+            <Item index="9" />
+            <Item index="10" />
+            <Item index="11" />
+            <Item index="12" />
+            <Item index="13" />
+            <Item index="14" />
+            <Item index="15" />
+          </GlobalSolarRadiationMonthly>
+          <TemperatureHeating1 unit="°F" />
+          <DewPointTemperatureHeating1 unit="°F" />
+          <SkyTemperatureHeating1 unit="°F" />
+          <GroundTemperatureHeating1 unit="°F" />
+          <NorthSolarRadiationHeating1 unit="Btu/hr ft²" />
+          <EastSolarRadiationHeating1 unit="Btu/hr ft²" />
+          <SouthSolarRadiationHeating1 unit="Btu/hr ft²" />
+          <WestSolarRadiationHeating1 unit="Btu/hr ft²" />
+          <GlobalSolarRadiationHeating1 unit="Btu/hr ft²" />
+          <TemperatureHeating2 unit="°F" />
+          <DewPointTemperatureHeating2 unit="°F" />
+          <SkyTemperatureHeating2 unit="°F" />
+          <GroundTemperatureHeating2 unit="°F" />
+          <NorthSolarRadiationHeating2 unit="Btu/hr ft²" />
+          <EastSolarRadiationHeating2 unit="Btu/hr ft²" />
+          <SouthSolarRadiationHeating2 unit="Btu/hr ft²" />
+          <WestSolarRadiationHeating2 unit="Btu/hr ft²" />
+          <GlobalSolarRadiationHeating2 unit="Btu/hr ft²" />
+          <TemperatureCooling unit="°F" />
+          <DewPointTemperatureCooling unit="°F" />
+          <SkyTemperatureCooling unit="°F" />
+          <GroundTemperatureCooling unit="°F" />
+          <NorthSolarRadiationCooling unit="Btu/hr ft²" />
+          <EastSolarRadiationCooling unit="Btu/hr ft²" />
+          <SouthSolarRadiationCooling unit="Btu/hr ft²" />
+          <WestSolarRadiationCooling unit="Btu/hr ft²" />
+          <GlobalSolarRadiationCooling unit="Btu/hr ft²" />
+          <TemperatureCooling2 unit="°F" />
+          <DewPointTemperatureCooling2 unit="°F" />
+          <SkyTemperatureCooling2 unit="°F" />
+          <GroundTemperatureCooling2 unit="°F" />
+          <NorthSolarRadiationCooling2 unit="Btu/hr ft²" />
+          <EastSolarRadiationCooling2 unit="Btu/hr ft²" />
+          <SouthSolarRadiationCooling2 unit="Btu/hr ft²" />
+          <WestSolarRadiationCooling2 unit="Btu/hr ft²" />
+          <GlobalSolarRadiationCooling2 unit="Btu/hr ft²" />
+          <SelectionPECO2Factor choice="Standard USA">1</SelectionPECO2Factor>
+        </PH_ClimateLocation>
+      </ClimateLocation>
+      <Building>
+        <BuildingHeight_Selection choice="From visualized geometry">2</BuildingHeight_Selection>
+        <BuildingHeight unit="ft">0</BuildingHeight>
+        <FacadeWidth_WestEast_Selection choice="User defined">6</FacadeWidth_WestEast_Selection>
+        <FacadeWidth_WestEast unit="ft" />
+        <FacadeWidth_NorthSouth_Selection choice="User defined">6</FacadeWidth_NorthSouth_Selection>
+        <FacadeWidth_NorthSouth unit="ft" />
+        <ChoiceBoundaryLayerThickness choice="Open terrain">3</ChoiceBoundaryLayerThickness>
+        <Numerics>
+          <IncludeShadingCalculation>true</IncludeShadingCalculation>
+          <IncludeAirFlowCalculation>false</IncludeAirFlowCalculation>
+          <ExplicitRadiationOuterSurfaces>false</ExplicitRadiationOuterSurfaces>
+          <HeatTransferWindDependent>false</HeatTransferWindDependent>
+          <RainLoad>false</RainLoad>
+          <LongwaveInner>false</LongwaveInner>
+          <MoistureBalancebyThermalCalc>false</MoistureBalancebyThermalCalc>
+          <ShadingDirect choice="Use preprocess results for shading">1</ShadingDirect>
+        </Numerics>
+        <AirFlowModel>
+          <AirFlowSettings choice="Individial settings">1</AirFlowSettings>
+          <DistributionToComponents choice="Proportional to area">1</DistributionToComponents>
+          <Infiltration unit="1/hr" />
+          <InfiltrationExponent unit="-" />
+          <LeakageCoefficient unit="cfm/Pa">0.4121</LeakageCoefficient>
+          <LeakageExponent unit="-" />
+          <EffectiveLeakageArea unit="ft²" />
+          <ReferencePressureDifference unit="psi" />
+          <ReferenceDischargeCoefficient unit="-" />
+          <ReferenceFlowExponent unit="-" />
+          <OpaqueComponents unit="-">0.7</OpaqueComponents>
+          <TransparentComponents unit="-">0.15</TransparentComponents>
+          <CeilingRoof unit="-">0.15</CeilingRoof>
+          <FanInZone_PT>-1</FanInZone_PT>
+          <CloseEnvelopeWindows_PT choice="Yes">1</CloseEnvelopeWindows_PT>
+          <CloseEnvelopeOpenings_PT choice="Yes">1</CloseEnvelopeOpenings_PT>
+          <OpenInnerDoors_PT choice="Yes">1</OpenInnerDoors_PT>
+          <OpenInnerOpenings_PT choice="Yes">1</OpenInnerOpenings_PT>
+          <DeltaPressure_PT unit="psi">0.0073</DeltaPressure_PT>
+          <OverwriteExistingParams>false</OverwriteExistingParams>
+        </AirFlowModel>
+        <Components count="4">
+          <Component index="0">
+            <IdentNr>1</IdentNr>
+            <Name />
+            <Visual>true</Visual>
+            <InnerAttachment choice="Zone 1">1</InnerAttachment>
+            <OuterAttachment choice="Outer air">-1</OuterAttachment>
+            <Type choice="Opaque">1</Type>
+            <HeightAboveGround_Selection choice="User defined">6</HeightAboveGround_Selection>
+            <HeightAboveGround unit="ft" />
+            <IdentNrColorI>1</IdentNrColorI>
+            <IdentNrColorE>2</IdentNrColorE>
+            <ColorExternUserDef>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>255</Blue>
+            </ColorExternUserDef>
+            <ColorInternUserDef>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>255</Blue>
+            </ColorInternUserDef>
+            <IdentNrPolygons count="6">
+              <IdentNr index="0">10000000</IdentNr>
+              <IdentNr index="1">10000001</IdentNr>
+              <IdentNr index="2">10000002</IdentNr>
+              <IdentNr index="3">10000003</IdentNr>
+              <IdentNr index="4">10000004</IdentNr>
+              <IdentNr index="5">10000005</IdentNr>
+            </IdentNrPolygons>
+            <KindInitialCond_RH choice="Constant rel. humidity">1</KindInitialCond_RH>
+            <InitialRH unit="-">0.8</InitialRH>
+            <InitialTemperature unit="°F">68</InitialTemperature>
+            <KindRsiRse choice="According to component type">1</KindRsiRse>
+            <Rse unit="hr ft² °F/Btu">0.2271</Rse>
+            <Rsi unit="hr ft² °F/Btu">0.7382</Rsi>
+            <TypeOuterClimate choice="According to component type (external attachment)">1</TypeOuterClimate>
+            <IdentNrOptionalClimate choice=" ">-1</IdentNrOptionalClimate>
+            <PartInnerSolarGain unit="-" />
+            <SolarGainProportionalToArea unit="-" />
+            <ChosenForAirFlowModel>false</ChosenForAirFlowModel>
+            <EmissionExtern unit="-">0.9</EmissionExtern>
+            <EmissionIntern unit="-">0.9</EmissionIntern>
+            <CalcHeatTransport>true</CalcHeatTransport>
+            <CalcMoistureTransport>true</CalcMoistureTransport>
+            <ExcludingCapillaryCond>false</ExcludingCapillaryCond>
+            <ExcludingLatentHeatEvaporation>false</ExcludingLatentHeatEvaporation>
+            <ExcludingLatentHeatFusion>false</ExcludingLatentHeatFusion>
+            <IncreasedAccuracy>true</IncreasedAccuracy>
+            <AdaptedConvergence>true</AdaptedConvergence>
+            <AlfaConvectiveIntern unit="Btu/hr ft² °F">0.5622</AlfaConvectiveIntern>
+            <AlfaRadiantIntern unit="Btu/hr ft² °F">0.7925</AlfaRadiantIntern>
+            <AlfaConvective unit="Btu/hr ft² °F">3.25804</AlfaConvective>
+            <AlfaRadiant unit="Btu/hr ft² °F">1.14472</AlfaRadiant>
+            <ShadingFactor unit="-">1</ShadingFactor>
+            <ExteriorDoor>false</ExteriorDoor>
+            <IdentNr_ComponentInnerSurface>-1</IdentNr_ComponentInnerSurface>
+            <IdentNrAssembly>-1</IdentNrAssembly>
+            <KindAbsorption choice="User defined">-2</KindAbsorption>
+            <Absorption unit="-">0.4</Absorption>
+            <KindSdExtern choice="No coating">-1</KindSdExtern>
+            <Sde unit="perm" />
+            <KindSdIntern choice="No coating">-1</KindSdIntern>
+            <Sdi unit="perm" />
+            <KindRain choice="No rain load">-1</KindRain>
+            <KindRainAbsorption choice="No rain absorption">-1</KindRainAbsorption>
+            <Rain_R1 unit="-">0</Rain_R1>
+            <Rain_R2 unit="s/ft">0</Rain_R2>
+            <Rain_Absorption unit="-">0</Rain_Absorption>
+            <DepthWindowReveal unit="in">3.93701</DepthWindowReveal>
+            <DistanceDaylightOpeningToReveal unit="in">1.9685</DistanceDaylightOpeningToReveal>
+            <HeightLandscapeObstruction unit="ft">0</HeightLandscapeObstruction>
+            <DistanceLandscapeObstruction unit="ft">0</DistanceLandscapeObstruction>
+            <OtherShading unit="-">1</OtherShading>
+            <OtherShadingSummer unit="-">1</OtherShadingSummer>
+            <RetainResults>false</RetainResults>
+          </Component>
+          <Component index="1">
+            <IdentNr>2</IdentNr>
+            <Name />
+            <Visual>true</Visual>
+            <InnerAttachment choice="Zone 1">1</InnerAttachment>
+            <OuterAttachment choice="Outer air">-1</OuterAttachment>
+            <Type choice="Opaque">1</Type>
+            <HeightAboveGround_Selection choice="User defined">6</HeightAboveGround_Selection>
+            <HeightAboveGround unit="ft" />
+            <IdentNrColorI>5</IdentNrColorI>
+            <IdentNrColorE>6</IdentNrColorE>
+            <ColorExternUserDef>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>255</Blue>
+            </ColorExternUserDef>
+            <ColorInternUserDef>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>255</Blue>
+            </ColorInternUserDef>
+            <IdentNrPolygons count="1">
+              <IdentNr index="0">10000006</IdentNr>
+            </IdentNrPolygons>
+            <KindInitialCond_RH choice="Constant rel. humidity">1</KindInitialCond_RH>
+            <InitialRH unit="-">0.8</InitialRH>
+            <InitialTemperature unit="°F">68</InitialTemperature>
+            <KindRsiRse choice="According to component type">1</KindRsiRse>
+            <Rse unit="hr ft² °F/Btu">0.2271</Rse>
+            <Rsi unit="hr ft² °F/Btu">0.9653</Rsi>
+            <TypeOuterClimate choice="According to component type (external attachment)">1</TypeOuterClimate>
+            <IdentNrOptionalClimate choice=" ">-1</IdentNrOptionalClimate>
+            <PartInnerSolarGain unit="-" />
+            <SolarGainProportionalToArea unit="-" />
+            <ChosenForAirFlowModel>false</ChosenForAirFlowModel>
+            <EmissionExtern unit="-">0.9</EmissionExtern>
+            <EmissionIntern unit="-">0.9</EmissionIntern>
+            <CalcHeatTransport>true</CalcHeatTransport>
+            <CalcMoistureTransport>true</CalcMoistureTransport>
+            <ExcludingCapillaryCond>false</ExcludingCapillaryCond>
+            <ExcludingLatentHeatEvaporation>false</ExcludingLatentHeatEvaporation>
+            <ExcludingLatentHeatFusion>false</ExcludingLatentHeatFusion>
+            <IncreasedAccuracy>true</IncreasedAccuracy>
+            <AdaptedConvergence>true</AdaptedConvergence>
+            <AlfaConvectiveIntern unit="Btu/hr ft² °F">0.44028</AlfaConvectiveIntern>
+            <AlfaRadiantIntern unit="Btu/hr ft² °F">0.59567</AlfaRadiantIntern>
+            <AlfaConvective unit="Btu/hr ft² °F">3.25804</AlfaConvective>
+            <AlfaRadiant unit="Btu/hr ft² °F">1.14472</AlfaRadiant>
+            <ShadingFactor unit="-">1</ShadingFactor>
+            <ExteriorDoor>false</ExteriorDoor>
+            <IdentNr_ComponentInnerSurface>-1</IdentNr_ComponentInnerSurface>
+            <IdentNrAssembly>-1</IdentNrAssembly>
+            <KindAbsorption choice="User defined">-2</KindAbsorption>
+            <Absorption unit="-">0.4</Absorption>
+            <KindSdExtern choice="No coating">-1</KindSdExtern>
+            <Sde unit="perm" />
+            <KindSdIntern choice="No coating">-1</KindSdIntern>
+            <Sdi unit="perm" />
+            <KindRain choice="No rain load">-1</KindRain>
+            <KindRainAbsorption choice="No rain absorption">-1</KindRainAbsorption>
+            <Rain_R1 unit="-">0</Rain_R1>
+            <Rain_R2 unit="s/ft">0</Rain_R2>
+            <Rain_Absorption unit="-">0</Rain_Absorption>
+            <DepthWindowReveal unit="in">3.93701</DepthWindowReveal>
+            <DistanceDaylightOpeningToReveal unit="in">1.9685</DistanceDaylightOpeningToReveal>
+            <HeightLandscapeObstruction unit="ft">0</HeightLandscapeObstruction>
+            <DistanceLandscapeObstruction unit="ft">0</DistanceLandscapeObstruction>
+            <OtherShading unit="-">1</OtherShading>
+            <OtherShadingSummer unit="-">1</OtherShadingSummer>
+            <RetainResults>false</RetainResults>
+          </Component>
+          <Component index="2">
+            <IdentNr>3</IdentNr>
+            <Name />
+            <Visual>true</Visual>
+            <InnerAttachment choice="Zone 1">1</InnerAttachment>
+            <OuterAttachment choice="Outer air">-1</OuterAttachment>
+            <Type choice="Opaque">1</Type>
+            <HeightAboveGround_Selection choice="User defined">6</HeightAboveGround_Selection>
+            <HeightAboveGround unit="ft" />
+            <IdentNrColorI>6</IdentNrColorI>
+            <IdentNrColorE>10</IdentNrColorE>
+            <ColorExternUserDef>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>255</Blue>
+            </ColorExternUserDef>
+            <ColorInternUserDef>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>255</Blue>
+            </ColorInternUserDef>
+            <IdentNrPolygons count="1">
+              <IdentNr index="0">10000007</IdentNr>
+            </IdentNrPolygons>
+            <KindInitialCond_RH choice="Constant rel. humidity">1</KindInitialCond_RH>
+            <InitialRH unit="-">0.8</InitialRH>
+            <InitialTemperature unit="°F">68</InitialTemperature>
+            <KindRsiRse choice="According to component type">1</KindRsiRse>
+            <Rse unit="hr ft² °F/Btu">0.2271</Rse>
+            <Rsi unit="hr ft² °F/Btu">0.5678</Rsi>
+            <TypeOuterClimate choice="According to component type (external attachment)">1</TypeOuterClimate>
+            <IdentNrOptionalClimate choice=" ">-1</IdentNrOptionalClimate>
+            <PartInnerSolarGain unit="-" />
+            <SolarGainProportionalToArea unit="-" />
+            <ChosenForAirFlowModel>false</ChosenForAirFlowModel>
+            <EmissionExtern unit="-">0.9</EmissionExtern>
+            <EmissionIntern unit="-">0.9</EmissionIntern>
+            <CalcHeatTransport>true</CalcHeatTransport>
+            <CalcMoistureTransport>true</CalcMoistureTransport>
+            <ExcludingCapillaryCond>false</ExcludingCapillaryCond>
+            <ExcludingLatentHeatEvaporation>false</ExcludingLatentHeatEvaporation>
+            <ExcludingLatentHeatFusion>false</ExcludingLatentHeatFusion>
+            <IncreasedAccuracy>true</IncreasedAccuracy>
+            <AdaptedConvergence>true</AdaptedConvergence>
+            <AlfaConvectiveIntern unit="Btu/hr ft² °F">0.96861</AlfaConvectiveIntern>
+            <AlfaRadiantIntern unit="Btu/hr ft² °F">0.7925</AlfaRadiantIntern>
+            <AlfaConvective unit="Btu/hr ft² °F">3.25804</AlfaConvective>
+            <AlfaRadiant unit="Btu/hr ft² °F">1.14472</AlfaRadiant>
+            <ShadingFactor unit="-">1</ShadingFactor>
+            <ExteriorDoor>false</ExteriorDoor>
+            <IdentNr_ComponentInnerSurface>-1</IdentNr_ComponentInnerSurface>
+            <IdentNrAssembly>-1</IdentNrAssembly>
+            <KindAbsorption choice="User defined">-2</KindAbsorption>
+            <Absorption unit="-">0.4</Absorption>
+            <KindSdExtern choice="No coating">-1</KindSdExtern>
+            <Sde unit="perm" />
+            <KindSdIntern choice="No coating">-1</KindSdIntern>
+            <Sdi unit="perm" />
+            <KindRain choice="No rain load">-1</KindRain>
+            <KindRainAbsorption choice="No rain absorption">-1</KindRainAbsorption>
+            <Rain_R1 unit="-">0</Rain_R1>
+            <Rain_R2 unit="s/ft">0</Rain_R2>
+            <Rain_Absorption unit="-">0</Rain_Absorption>
+            <DepthWindowReveal unit="in">3.93701</DepthWindowReveal>
+            <DistanceDaylightOpeningToReveal unit="in">1.9685</DistanceDaylightOpeningToReveal>
+            <HeightLandscapeObstruction unit="ft">0</HeightLandscapeObstruction>
+            <DistanceLandscapeObstruction unit="ft">0</DistanceLandscapeObstruction>
+            <OtherShading unit="-">1</OtherShading>
+            <OtherShadingSummer unit="-">1</OtherShadingSummer>
+            <RetainResults>false</RetainResults>
+          </Component>
+          <Component index="3">
+            <IdentNr>4</IdentNr>
+            <Name />
+            <Visual>true</Visual>
+            <InnerAttachment choice="Zone 1">1</InnerAttachment>
+            <OuterAttachment choice="Outer air">-1</OuterAttachment>
+            <Type choice="Transparent">2</Type>
+            <HeightAboveGround_Selection choice="User defined">6</HeightAboveGround_Selection>
+            <HeightAboveGround unit="ft" />
+            <IdentNrColorI>4</IdentNrColorI>
+            <IdentNrColorE>4</IdentNrColorE>
+            <ColorExternUserDef>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>255</Blue>
+            </ColorExternUserDef>
+            <ColorInternUserDef>
+              <Alpha>255</Alpha>
+              <Red>255</Red>
+              <Green>255</Green>
+              <Blue>255</Blue>
+            </ColorInternUserDef>
+            <IdentNrPolygons count="3">
+              <IdentNr index="0">10000008</IdentNr>
+              <IdentNr index="1">10000009</IdentNr>
+              <IdentNr index="2">10000010</IdentNr>
+            </IdentNrPolygons>
+            <KindInitialCond_RH choice="Constant rel. humidity">1</KindInitialCond_RH>
+            <InitialRH unit="-">0.8</InitialRH>
+            <InitialTemperature unit="°F">68</InitialTemperature>
+            <KindRsiRse choice="According to component type">1</KindRsiRse>
+            <Rse unit="hr ft² °F/Btu">0.2271</Rse>
+            <Rsi unit="hr ft² °F/Btu">0.7382</Rsi>
+            <TypeOuterClimate choice="According to component type (external attachment)">1</TypeOuterClimate>
+            <IdentNrOptionalClimate choice=" ">-1</IdentNrOptionalClimate>
+            <PartInnerSolarGain unit="-" />
+            <SolarGainProportionalToArea unit="-" />
+            <ChosenForAirFlowModel>false</ChosenForAirFlowModel>
+            <EmissionExtern unit="-">0.9</EmissionExtern>
+            <EmissionIntern unit="-">0.9</EmissionIntern>
+            <AlfaConvectiveIntern unit="Btu/hr ft² °F">0.5622</AlfaConvectiveIntern>
+            <AlfaRadiantIntern unit="Btu/hr ft² °F">0.7925</AlfaRadiantIntern>
+            <AlfaConvective unit="Btu/hr ft² °F">3.25804</AlfaConvective>
+            <AlfaRadiant unit="Btu/hr ft² °F">1.14472</AlfaRadiant>
+            <ShadingFactor unit="-">1</ShadingFactor>
+            <ExteriorDoor>false</ExteriorDoor>
+            <IdentNr_ComponentInnerSurface>-1</IdentNr_ComponentInnerSurface>
+            <IdentNrWindowType>-1</IdentNrWindowType>
+            <IdentNrSolarProtection>-1</IdentNrSolarProtection>
+            <IdentNrOverhang>-1</IdentNrOverhang>
+            <WindowVentilated>false</WindowVentilated>
+            <VentilatedCapNr>1</VentilatedCapNr>
+            <WindowVentilation>
+              <Selection choice="Periodic day profiles">1</Selection>
+              <Unit_AirFlow choice="cfm">51</Unit_AirFlow>
+              <TimeProfile_WindowVentilation count="1">
+                <Period index="0">
+                  <Begin>
+                    <Year>2017</Year>
+                    <Month>5</Month>
+                    <Day>4</Day>
+                    <Hour>23</Hour>
+                    <Minutes>45</Minutes>
+                    <Seconds>42</Seconds>
+                  </Begin>
+                  <End>
+                    <Year>2017</Year>
+                    <Month>5</Month>
+                    <Day>4</Day>
+                    <Hour>23</Hour>
+                    <Minutes>45</Minutes>
+                    <Seconds>42</Seconds>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="hr">0</Hour>
+                      <Values>
+                        <AirFlow unit="cfm" />
+                      </Values>
+                    </Item>
+                  </DayProfile>
+                </Period>
+              </TimeProfile_WindowVentilation>
+            </WindowVentilation>
+            <DepthWindowReveal unit="in">3.93701</DepthWindowReveal>
+            <DistanceDaylightOpeningToReveal unit="in">1.9685</DistanceDaylightOpeningToReveal>
+            <HeightLandscapeObstruction unit="ft">0</HeightLandscapeObstruction>
+            <DistanceLandscapeObstruction unit="ft">0</DistanceLandscapeObstruction>
+            <OtherShading unit="-">1</OtherShading>
+            <OtherShadingSummer unit="-">1</OtherShadingSummer>
+            <RetainResults>false</RetainResults>
+          </Component>
+        </Components>
+        <Zones count="1">
+          <Zone index="0">
+            <Name />
+            <KindZone choice="Simulated zone">1</KindZone>
+            <IdentNr>1</IdentNr>
+            <VisualizedVolume_Selection choice="From visualized geometry">2</VisualizedVolume_Selection>
+            <VisualizedVolume unit="ft³">579407.74</VisualizedVolume>
+            <GrossVolume_Selection choice="User defined">6</GrossVolume_Selection>
+            <GrossVolume unit="ft³" />
+            <NetVolume_Selection choice="User defined">6</NetVolume_Selection>
+            <NetVolume unit="ft³" />
+            <FloorArea_Selection choice="User defined">6</FloorArea_Selection>
+            <FloorArea unit="ft²" />
+            <HeightFloorAboveGround_Selection choice="User defined">6</HeightFloorAboveGround_Selection>
+            <HeightFloorAboveGround unit="ft" />
+            <Calculator_GrossVolume>
+              <Result>----</Result>
+              <OK>false</OK>
+              <Expressions count="1">
+                <Expression index="0">
+                  <Expression />
+                  <Comment />
+                  <OK>false</OK>
+                  <Error>Empty expression</Error>
+                </Expression>
+              </Expressions>
+            </Calculator_GrossVolume>
+            <Calculator_NetVolume>
+              <Result>----</Result>
+              <OK>false</OK>
+              <Expressions count="1">
+                <Expression index="0">
+                  <Expression />
+                  <Comment />
+                  <OK>false</OK>
+                  <Error>Empty expression</Error>
+                </Expression>
+              </Expressions>
+            </Calculator_NetVolume>
+            <Calculator_FloorArea>
+              <Result>----</Result>
+              <OK>false</OK>
+              <Expressions count="1">
+                <Expression index="0">
+                  <Expression />
+                  <Comment />
+                  <OK>false</OK>
+                  <Error>Empty expression</Error>
+                </Expression>
+              </Expressions>
+            </Calculator_FloorArea>
+            <TypeCalculationInnerClimate choice="Simulate interior climate conditions">1</TypeCalculationInnerClimate>
+            <IndexFirstCurveResults>-1</IndexFirstCurveResults>
+            <DesignConditions>
+              <Unit_MinTemperature choice="°F">14</Unit_MinTemperature>
+              <Selection_MinTemperature choice="Periodic day profiles">1</Selection_MinTemperature>
+              <TimeProfile_MinTemperature count="1">
+                <Period index="0">
+                  <Begin>
+                    <Year>2017</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2018</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="hr">0</Hour>
+                      <Value unit="°F">68</Value>
+                    </Item>
+                  </DayProfile>
+                </Period>
+              </TimeProfile_MinTemperature>
+              <Unit_MaxTemperature choice="°F">14</Unit_MaxTemperature>
+              <Selection_MaxTemperature choice="Periodic day profiles">1</Selection_MaxTemperature>
+              <TimeProfile_MaxTemperature count="1">
+                <Period index="0">
+                  <Begin>
+                    <Year>2017</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2018</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="hr">0</Hour>
+                      <Value unit="°F">80.6</Value>
+                    </Item>
+                  </DayProfile>
+                </Period>
+              </TimeProfile_MaxTemperature>
+              <Unit_MinRelHumidity choice="%">22</Unit_MinRelHumidity>
+              <Selection_MinRelHumidity choice="Periodic day profiles">1</Selection_MinRelHumidity>
+              <TimeProfile_MinRelHumidity count="1">
+                <Period index="0">
+                  <Begin>
+                    <Year>2017</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2018</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="hr">0</Hour>
+                      <Value unit="%">40</Value>
+                    </Item>
+                  </DayProfile>
+                </Period>
+              </TimeProfile_MinRelHumidity>
+              <Unit_MaxRelHumidity choice="%">22</Unit_MaxRelHumidity>
+              <Selection_MaxRelHumidity choice="Periodic day profiles">1</Selection_MaxRelHumidity>
+              <TimeProfile_MaxRelHumidity count="1">
+                <Period index="0">
+                  <Begin>
+                    <Year>2017</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2018</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="hr">0</Hour>
+                      <Value unit="%">70</Value>
+                    </Item>
+                  </DayProfile>
+                </Period>
+              </TimeProfile_MaxRelHumidity>
+              <Unit_MaxCO2Concentration choice="ppmv">48</Unit_MaxCO2Concentration>
+              <Selection_MaxCO2Concentration choice="Periodic day profiles">1</Selection_MaxCO2Concentration>
+              <TimeProfile_MaxCO2Concentration count="1">
+                <Period index="0">
+                  <Begin>
+                    <Year>2017</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2018</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="hr">0</Hour>
+                      <Value unit="ppmv">3000</Value>
+                    </Item>
+                  </DayProfile>
+                </Period>
+              </TimeProfile_MaxCO2Concentration>
+              <Unit_Ventilation choice="1/hr">29</Unit_Ventilation>
+              <Selection_Ventilation choice="Periodic day profiles">1</Selection_Ventilation>
+              <TimeProfile_Ventilation count="1">
+                <Period index="0">
+                  <Begin>
+                    <Year>2017</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2018</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="hr">0</Hour>
+                      <Value unit="1/hr">0.5</Value>
+                    </Item>
+                  </DayProfile>
+                </Period>
+              </TimeProfile_Ventilation>
+              <Unit_MechanicalVentilation choice="1/hr">29</Unit_MechanicalVentilation>
+              <Selection_MechanicalVentilation choice="Periodic day profiles">1</Selection_MechanicalVentilation>
+              <TimeProfile_MechanicalVentilation count="1">
+                <Period index="0">
+                  <Begin>
+                    <Year>2017</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2018</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="hr">0</Hour>
+                      <Value unit="1/hr">0</Value>
+                    </Item>
+                  </DayProfile>
+                  <MechanicalVentilationControl choice="No control">1</MechanicalVentilationControl>
+                </Period>
+              </TimeProfile_MechanicalVentilation>
+              <InfiltrationFactor unit="1/hr">0.1</InfiltrationFactor>
+            </DesignConditions>
+            <Loads>
+              <Unit_MoistureLoad choice="g/hr">56</Unit_MoistureLoad>
+              <Unit_HeatConvectiveLoad choice="Btu/hr">53</Unit_HeatConvectiveLoad>
+              <Unit_HeatRadiantLoad choice="Btu/hr">53</Unit_HeatRadiantLoad>
+              <Unit_CO2Load choice="g/hr">56</Unit_CO2Load>
+              <Unit_Clothing choice="clo">61</Unit_Clothing>
+              <Unit_AirVelocity choice="ft/s">62</Unit_AirVelocity>
+              <Unit_HumanActivity choice="met">60</Unit_HumanActivity>
+              <Selection choice="Periodic day profiles">1</Selection>
+              <TimeProfile_Loads count="1">
+                <Period index="0">
+                  <Begin>
+                    <Year>2017</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </Begin>
+                  <End>
+                    <Year>2018</Year>
+                    <Month>1</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minutes>0</Minutes>
+                  </End>
+                  <Monday>true</Monday>
+                  <Tuesday>true</Tuesday>
+                  <Wednesday>true</Wednesday>
+                  <Thursday>true</Thursday>
+                  <Friday>true</Friday>
+                  <Saturday>true</Saturday>
+                  <Sunday>true</Sunday>
+                  <DayProfile count="1">
+                    <Item index="0">
+                      <Hour unit="hr">0</Hour>
+                      <Values>
+                        <MoistureLoad unit="g/hr">0</MoistureLoad>
+                        <HeatConvectiveLoad unit="Btu/hr">0</HeatConvectiveLoad>
+                        <HeatRadiantLoad unit="Btu/hr">0</HeatRadiantLoad>
+                        <CO2Load unit="g/hr">0</CO2Load>
+                        <Clothing unit="clo">0.7</Clothing>
+                        <CountPeople>0</CountPeople>
+                        <AirVelocity unit="ft/s">0.3281</AirVelocity>
+                        <HumanActivity unit="met">0</HumanActivity>
+                      </Values>
+                    </Item>
+                  </DayProfile>
+                </Period>
+              </TimeProfile_Loads>
+            </Loads>
+            <CalcParameters>
+              <InitialAirTemperature unit="°F">68</InitialAirTemperature>
+              <InitialAirRelHumidity unit="%">55</InitialAirRelHumidity>
+              <InitialCO2Concentration unit="ppmv">400</InitialCO2Concentration>
+              <Unit_InitialCO2Concentration choice="ppmv">48</Unit_InitialCO2Concentration>
+              <AbsorptionSolarRadiationInnerAir unit="-">0.1</AbsorptionSolarRadiationInnerAir>
+              <SolarRadiationInnerDistribution choice="Proportional to area">1</SolarRadiationInnerDistribution>
+            </CalcParameters>
+            <BoundaryCondition>
+              <Type>2</Type>
+              <IdentNr>-1</IdentNr>
+              <IdentNr_Object>-1</IdentNr_Object>
+              <ThermalResistance_Horizontal unit="hr ft² °F/Btu">0.73818</ThermalResistance_Horizontal>
+              <ThermalResistance_Down unit="hr ft² °F/Btu">0.96531</ThermalResistance_Down>
+              <ThermalResistance_Up unit="hr ft² °F/Btu">0.56783</ThermalResistance_Up>
+              <Color>
+                <Alpha>255</Alpha>
+                <Red>255</Red>
+                <Green>255</Green>
+                <Blue>0</Blue>
+              </Color>
+            </BoundaryCondition>
+            <IdentNrPH_Building choice="Passive house: 1">1</IdentNrPH_Building>
+            <OccupantQuantityUserDef unit="-">4</OccupantQuantityUserDef>
+            <NumberBedrooms unit="-">4</NumberBedrooms>
+            <ClearanceHeight_Selection choice="Standard value">1</ClearanceHeight_Selection>
+            <ClearanceHeight unit="ft">8.2</ClearanceHeight>
+            <SpecificHeatCapacity_Selection choice="Lightweight">1</SpecificHeatCapacity_Selection>
+            <SpecificHeatCapacity unit="Btu/ft²F">11</SpecificHeatCapacity>
+            <SummerNaturalVentilationDay unit="1/hr" />
+            <SummerMechanicalVentilationNight unit="1/hr" />
+            <SummerNaturalVentilationNight unit="1/hr" />
+            <HumiditySources unit="lb/(ft²hr)">0.00041</HumiditySources>
+            <HumidityCapacity unit="lb/(lbw/lbda) ft²">143.3713</HumidityCapacity>
+            <ACHViaMechanicalVentilationExhaustAir unit="1/hr" />
+            <SpecificPowerConsumption unit="W/cfm" />
+            <MechanicalAutomaticControlledVentilation unit="1/hr" />
+            <SpecificPowerConsumptionAdditionalVentCooling unit="W/cfm" />
+            <NumberHeavyStructures unit="-" />
+            <DIN4108_2>
+              <BuildingType_DIN4108 choice="Residential">1</BuildingType_DIN4108>
+              <DayVentilation_DIN4108 choice="No increased day ventilation">1</DayVentilation_DIN4108>
+              <NightVentilation_DIN4108 choice="No increased night ventilation">1</NightVentilation_DIN4108>
+              <NightMechanicalVentilation_DIN4108 choice="No night mechanical ventilation">1</NightMechanicalVentilation_DIN4108>
+            </DIN4108_2>
+          </Zone>
+        </Zones>
+        <BuildingGenerator>
+          <Main_Section choice="Rectangle">1</Main_Section>
+          <Roof_Art choice="Attic residential">1</Roof_Art>
+          <Bottom_Art choice="Cellar not heated">1</Bottom_Art>
+          <d1_Rectangle unit="ft">39.3701</d1_Rectangle>
+          <d2_Rectangle unit="ft">29.5276</d2_Rectangle>
+          <d1_LShape unit="ft">22.9659</d1_LShape>
+          <d2_LShape unit="ft">22.9659</d2_LShape>
+          <d3_LShape unit="ft">16.4042</d3_LShape>
+          <d4_LShape unit="ft">22.9659</d4_LShape>
+          <d1_TShape unit="ft">22.9659</d1_TShape>
+          <d2_TShape unit="ft">19.685</d2_TShape>
+          <d3_TShape unit="ft">16.4042</d3_TShape>
+          <d4_TShape unit="ft">13.1234</d4_TShape>
+          <d5_TShape unit="ft">22.9659</d5_TShape>
+          <h1_Roof unit="ft">1.6404</h1_Roof>
+          <h2_Roof unit="ft">3.2808</h2_Roof>
+          <h3_Roof unit="ft">8.6942</h3_Roof>
+          <Inclination_Roof unit="°">40</Inclination_Roof>
+          <GableEnds_Roof>false</GableEnds_Roof>
+          <Offset_Roof unit="ft">2.6247</Offset_Roof>
+          <h1_Cellar unit="ft">4.9213</h1_Cellar>
+          <h2_Cellar unit="ft">8.2021</h2_Cellar>
+          <Height_FirstStory unit="ft">9.1864</Height_FirstStory>
+          <Height_Storey unit="ft">9.1864</Height_Storey>
+          <CountStories>1</CountStories>
+          <GroupComponents>true</GroupComponents>
+          <TypeDefAzimuth choice="Main orientations">1</TypeDefAzimuth>
+          <OrientationMainFacade choice="South">1</OrientationMainFacade>
+          <AzimuthMainFacade_N unit="°">180</AzimuthMainFacade_N>
+        </BuildingGenerator>
+        <CountGenerated>0</CountGenerated>
+        <HasBeenGenerated>false</HasBeenGenerated>
+        <HasBeenChangedSinceLastGeneration>false</HasBeenChangedSinceLastGeneration>
+      </Building>
+      <PassivehouseData>
+        <PH_CertificateCriteria choice="Default Standard">1</PH_CertificateCriteria>
+        <PH_SelectionTargetData choice="Select from climate data">1</PH_SelectionTargetData>
+        <HeatingDegreeDaysPHIUS>3660</HeatingDegreeDaysPHIUS>
+        <CoolingDegreeDaysPHIUS>990</CoolingDegreeDaysPHIUS>
+        <AnnualGlobalSolarRadiationPHIUS>1150</AnnualGlobalSolarRadiationPHIUS>
+        <HeatingDesignDryBulbTemperaturePHIUS unit="°F">32</HeatingDesignDryBulbTemperaturePHIUS>
+        <CoolingDesignDryBulbTemperaturePHIUS unit="°F">75.2</CoolingDesignDryBulbTemperaturePHIUS>
+        <DehumidificationDesignHumidityRatioPHIUS unit="grains/lb">150</DehumidificationDesignHumidityRatioPHIUS>
+        <ElectricityPricePHIUS>0.08</ElectricityPricePHIUS>
+        <AnnualHeatingDemand unit="kBtu/ft²yr" />
+        <AnnualCoolingDemand unit="kBtu/ft²yr" />
+        <PeakHeatingLoad unit="Btu/hr ft²" />
+        <PeakCoolingLoad unit="Btu/hr ft²" />
+        <PH_Buildings count="1">
+          <PH_Building index="0">
+            <IdentNr>1</IdentNr>
+            <BuildingCategory choice="Residential">1</BuildingCategory>
+            <OccupancyTypeResidential choice="Residential">1</OccupancyTypeResidential>
+            <BuildingStatus choice="In planning">1</BuildingStatus>
+            <BuildingType choice="New construction">1</BuildingType>
+            <InternalGainsSetting choice="Default">1</InternalGainsSetting>
+            <OccupancySettingMethod choice="Verification">1</OccupancySettingMethod>
+            <NumberUnits unit="-">1</NumberUnits>
+            <TypeVentilationSystem choice="Balanced PH ventilation">1</TypeVentilationSystem>
+            <PositionPerimeterInsulation choice="Not defined">1</PositionPerimeterInsulation>
+            <IndoorTemperature unit="°F">68</IndoorTemperature>
+            <PreferredMinimumIndoorTemperatureNightVentilation unit="°F">68</PreferredMinimumIndoorTemperatureNightVentilation>
+            <FreshAirPerPerson unit="cfm">18</FreshAirPerPerson>
+            <BasementVentilationACH unit="1/hr">0.5</BasementVentilationACH>
+            <PerimeterInsulationWidthDepth unit="ft">3.2808</PerimeterInsulationWidthDepth>
+            <ThicknessPerimeterInsulation unit="in">1.9685</ThicknessPerimeterInsulation>
+            <ConductivityPerimeterInsulation unit="Btu/hr ft °F">0.0578</ConductivityPerimeterInsulation>
+            <InfiltrationData choice="ACH 50">1</InfiltrationData>
+            <InfiltrationACH50 unit="1/hr" />
+            <EnvelopeAirtightnessCoefficient unit="cfm/ft²" />
+            <NetAirVolumePressTest unit="ft³" />
+            <InternalHeatGains unit="Btu/hr ft²" />
+            <MaxHumidityRatioDehumidification unit="lbw/lba">0.012</MaxHumidityRatioDehumidification>
+            <OverheatingTemperatureThreshold unit="°F">77</OverheatingTemperatureThreshold>
+            <MechanicalRoomTemperature unit="°F">68</MechanicalRoomTemperature>
+            <TapOpeningsPersonDay unit="-">3</TapOpeningsPersonDay>
+            <TapOpeningsUtilizationDaysYear unit="days/yr">365</TapOpeningsUtilizationDaysYear>
+            <DHWConsumption60PersonDay unit="gal/Person/day" />
+            <AverageColdWaterTemperatureSupply unit="°F" />
+            <AutomaticControlSystemVia choice="Temperature difference">1</AutomaticControlSystemVia>
+            <SummerHRVHumidityRecovery choice="No heat recovery (always bypass)">1</SummerHRVHumidityRecovery>
+            <SettingFloorSlabType choice="User defined">6</SettingFloorSlabType>
+            <FloorSlabType choice="Unheated basement">2</FloorSlabType>
+            <PhaseShiftMonths />
+            <ShiftOfAverageTemperature unit="°F" />
+            <HarmonicFraction unit="Btu/hr F" />
+            <DepthBasementBelowGroundSurface_Selection choice="User defined">6</DepthBasementBelowGroundSurface_Selection>
+            <DepthBasementBelowGroundSurface unit="ft" />
+            <HeightBasementWallAboveGrade_Selection choice="User defined">6</HeightBasementWallAboveGrade_Selection>
+            <HeightBasementWallAboveGrade unit="ft" />
+            <CrawlspaceVentOpenings_Selection choice="User defined">6</CrawlspaceVentOpenings_Selection>
+            <CrawlspaceVentOpenings unit="ft²" />
+            <FloorSlabArea_Selection choice="User defined">6</FloorSlabArea_Selection>
+            <FloorSlabArea unit="ft²" />
+            <U_ValueBasementSlab_Selection choice="User defined">6</U_ValueBasementSlab_Selection>
+            <U_ValueBasementSlab unit="Btu/hr ft² °F" />
+            <FloorCeilingArea_Selection choice="User defined">6</FloorCeilingArea_Selection>
+            <FloorCeilingArea unit="ft²" />
+            <U_ValueCeilingToUnheatedCellar_Selection choice="User defined">6</U_ValueCeilingToUnheatedCellar_Selection>
+            <U_ValueCeilingToUnheatedCellar unit="Btu/hr ft² °F" />
+            <U_ValueBasementWall_Selection choice="User defined">6</U_ValueBasementWall_Selection>
+            <U_ValueBasementWall unit="Btu/hr ft² °F" />
+            <U_ValueWallAboveGround_Selection choice="User defined">6</U_ValueWallAboveGround_Selection>
+            <U_ValueWallAboveGround unit="Btu/hr ft² °F" />
+            <FloorSlabPerimeter_Selection choice="User defined">6</FloorSlabPerimeter_Selection>
+            <FloorSlabPerimeter unit="ft" />
+            <BasementVolume_Selection choice="User defined">6</BasementVolume_Selection>
+            <BasementVolume unit="ft³" />
+            <U_ValueCrawlspaceFloor_Selection choice="User defined">6</U_ValueCrawlspaceFloor_Selection>
+            <U_ValueCrawlspaceFloor unit="Btu/hr ft² °F" />
+            <BuildingWindExposure choice="Several sides exposed - moderate screening">2</BuildingWindExposure>
+            <FoundationInterfaces count="1">
+              <FoundationInterface index="0">
+                <Name />
+                <PositionPerimeterInsulation choice="Not defined">1</PositionPerimeterInsulation>
+                <PerimeterInsulationWidthDepth unit="ft">3.2808</PerimeterInsulationWidthDepth>
+                <ThicknessPerimeterInsulation unit="in">1.9685</ThicknessPerimeterInsulation>
+                <ConductivityPerimeterInsulation unit="Btu/hr ft °F">0.0578</ConductivityPerimeterInsulation>
+                <SettingFloorSlabType choice="User defined">6</SettingFloorSlabType>
+                <FloorSlabType choice="Unheated basement">2</FloorSlabType>
+                <PhaseShiftMonths />
+                <HarmonicFraction unit="Btu/hr F" />
+                <BasementVentilationACH unit="1/hr">0.5</BasementVentilationACH>
+                <DepthBasementBelowGroundSurface_Selection choice="User defined">6</DepthBasementBelowGroundSurface_Selection>
+                <DepthBasementBelowGroundSurface unit="ft" />
+                <HeightBasementWallAboveGrade_Selection choice="User defined">6</HeightBasementWallAboveGrade_Selection>
+                <HeightBasementWallAboveGrade unit="ft" />
+                <CrawlspaceVentOpenings_Selection choice="User defined">6</CrawlspaceVentOpenings_Selection>
+                <CrawlspaceVentOpenings unit="ft²" />
+                <FloorSlabArea_Selection choice="User defined">6</FloorSlabArea_Selection>
+                <FloorSlabArea unit="ft²" />
+                <U_ValueBasementSlab_Selection choice="User defined">6</U_ValueBasementSlab_Selection>
+                <U_ValueBasementSlab unit="Btu/hr ft² °F" />
+                <FloorCeilingArea_Selection choice="User defined">6</FloorCeilingArea_Selection>
+                <FloorCeilingArea unit="ft²" />
+                <U_ValueCeilingToUnheatedCellar_Selection choice="User defined">6</U_ValueCeilingToUnheatedCellar_Selection>
+                <U_ValueCeilingToUnheatedCellar unit="Btu/hr ft² °F" />
+                <U_ValueBasementWall_Selection choice="User defined">6</U_ValueBasementWall_Selection>
+                <U_ValueBasementWall unit="Btu/hr ft² °F" />
+                <U_ValueWallAboveGround_Selection choice="User defined">6</U_ValueWallAboveGround_Selection>
+                <U_ValueWallAboveGround unit="Btu/hr ft² °F" />
+                <FloorSlabPerimeter_Selection choice="User defined">6</FloorSlabPerimeter_Selection>
+                <FloorSlabPerimeter unit="ft" />
+                <BasementVolume_Selection choice="User defined">6</BasementVolume_Selection>
+                <BasementVolume unit="ft³" />
+                <U_ValueCrawlspaceFloor_Selection choice="User defined">6</U_ValueCrawlspaceFloor_Selection>
+                <U_ValueCrawlspaceFloor unit="Btu/hr ft² °F" />
+                <Calculator_AreaFloor>
+                  <Result>----</Result>
+                  <OK>false</OK>
+                  <Expressions count="1">
+                    <Expression index="0">
+                      <Expression />
+                      <Comment />
+                      <OK>false</OK>
+                      <Error>Empty expression</Error>
+                    </Expression>
+                  </Expressions>
+                </Calculator_AreaFloor>
+                <Calculator_LengthPerimeter>
+                  <Result>----</Result>
+                  <OK>false</OK>
+                  <Expressions count="1">
+                    <Expression index="0">
+                      <Expression />
+                      <Comment />
+                      <OK>false</OK>
+                      <Error>Empty expression</Error>
+                    </Expression>
+                  </Expressions>
+                </Calculator_LengthPerimeter>
+                <Calculator_AreaCeiling>
+                  <Result>----</Result>
+                  <OK>false</OK>
+                  <Expressions count="1">
+                    <Expression index="0">
+                      <Expression />
+                      <Comment />
+                      <OK>false</OK>
+                      <Error>Empty expression</Error>
+                    </Expression>
+                  </Expressions>
+                </Calculator_AreaCeiling>
+                <Calculator_VolumeBasement>
+                  <Result>----</Result>
+                  <OK>false</OK>
+                  <Expressions count="1">
+                    <Expression index="0">
+                      <Expression />
+                      <Comment />
+                      <OK>false</OK>
+                      <Error>Empty expression</Error>
+                    </Expression>
+                  </Expressions>
+                </Calculator_VolumeBasement>
+                <Calculator_AreaVentilationOpenings>
+                  <Result>----</Result>
+                  <OK>false</OK>
+                  <Expressions count="1">
+                    <Expression index="0">
+                      <Expression />
+                      <Comment />
+                      <OK>false</OK>
+                      <Error>Empty expression</Error>
+                    </Expression>
+                  </Expressions>
+                </Calculator_AreaVentilationOpenings>
+              </FoundationInterface>
+            </FoundationInterfaces>
+            <Calculator_NetVolumeAirPressTest>
+              <Result>----</Result>
+              <OK>false</OK>
+              <Expressions count="1">
+                <Expression index="0">
+                  <Expression />
+                  <Comment />
+                  <OK>false</OK>
+                  <Error>Empty expression</Error>
+                </Expression>
+              </Expressions>
+            </Calculator_NetVolumeAirPressTest>
+          </PH_Building>
+        </PH_Buildings>
+      </PassivehouseData>
+      <PlugIn>
+        <InsertPlugIn>false</InsertPlugIn>
+        <Name_dll />
+        <StatusPlugIn />
+      </PlugIn>
+      <HVAC />
+      <LastCalculationScope>-1</LastCalculationScope>
+      <CalculationMode choice="Thermal">1</CalculationMode>
+      <CalculationAccuracy choice="Medium">2</CalculationAccuracy>
+      <InitializationPeriod choice="No">2</InitializationPeriod>
+      <CalculationStart>
+        <Year>2017</Year>
+        <Month>1</Month>
+        <Day>1</Day>
+        <Hour>0</Hour>
+        <Minutes>0</Minutes>
+      </CalculationStart>
+      <CalculationEnd>
+        <Year>2018</Year>
+        <Month>1</Month>
+        <Day>1</Day>
+        <Hour>0</Hour>
+        <Minutes>0</Minutes>
+      </CalculationEnd>
+      <ResultsTimeStep>
+        <Hours>1</Hours>
+        <Minutes>0</Minutes>
+        <Seconds>0</Seconds>
+      </ResultsTimeStep>
+      <PreliminaryCalcTime>0</PreliminaryCalcTime>
+      <CopyDesignConditionsFrom choice="Passive house model">4</CopyDesignConditionsFrom>
+      <NewContinueCalculation choice="New calculation">1</NewContinueCalculation>
+      <ExportOfAllResults>false</ExportOfAllResults>
+      <CountCurvesTmpFileResult>0</CountCurvesTmpFileResult>
+      <CountTotalStepsCalc>0</CountTotalStepsCalc>
+      <CountStepsEffectiveCalc>0</CountStepsEffectiveCalc>
+      <IndexMonthCalc>-1</IndexMonthCalc>
+      <StrartPosByteResFile>0</StrartPosByteResFile>
+      <LengthByteResFile>0</LengthByteResFile>
+      <MainResults>
+        <DateTimeCalc>
+          <Text />
+        </DateTimeCalc>
+        <CalcPeriod>
+          <Text unit="hr" />
+        </CalcPeriod>
+        <HeatEnergy>
+          <Text unit="kBtu" />
+        </HeatEnergy>
+        <CoolingEnergy>
+          <Text unit="kBtu" />
+        </CoolingEnergy>
+        <SumHumidification>
+          <Text unit="lb" />
+        </SumHumidification>
+        <SumDehumidification>
+          <Text unit="lb" />
+        </SumDehumidification>
+        <minTi>
+          <Text unit="°F" />
+        </minTi>
+        <maxTi>
+          <Text unit="°F" />
+        </maxTi>
+        <minRHi>
+          <Text unit="%" />
+        </minRHi>
+        <maxRHi>
+          <Text unit="%" />
+        </maxRHi>
+        <MaxCountIterations>
+          <Text />
+        </MaxCountIterations>
+        <CalculationTime>
+          <Text />
+        </CalculationTime>
+        <CountConvergenceErrors>
+          <Text />
+        </CountConvergenceErrors>
+        <CountAirBalanceErrors>
+          <Text />
+        </CountAirBalanceErrors>
+        <DateTimeLastConvError>
+          <Text />
+        </DateTimeLastConvError>
+        <ResultsScope>0</ResultsScope>
+        <PreliminaryCalcTime>0</PreliminaryCalcTime>
+      </MainResults>
+    </Variant>
+  </Variants>
+  <LastDataHeatLossCalculation_PerMeterPipe>
+    <NominalDiameter unit="in" />
+    <InsulationThickness unit="in" />
+    <ThermalConductivity unit="Btu/hr ft °F" />
+    <isReflective>false</isReflective>
+  </LastDataHeatLossCalculation_PerMeterPipe>
+</WUFIplusProject>
