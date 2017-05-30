@@ -5,16 +5,27 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassiveBee", "PassiveBee\PassiveBee.csproj", "{2B453AB5-AD34-42AA-9E8D-722923513EE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassiveBee.test", "PassiveBee.test\PassiveBee.test.csproj", "{66033368-38DC-48A5-995A-98A2A46CD3B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug64|Any CPU = Debug64|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B453AB5-AD34-42AA-9E8D-722923513EE7}.Debug|Any CPU.ActiveCfg = Debug64|Any CPU
+		{2B453AB5-AD34-42AA-9E8D-722923513EE7}.Debug|Any CPU.Build.0 = Debug64|Any CPU
 		{2B453AB5-AD34-42AA-9E8D-722923513EE7}.Debug64|Any CPU.ActiveCfg = Debug64|Any CPU
 		{2B453AB5-AD34-42AA-9E8D-722923513EE7}.Debug64|Any CPU.Build.0 = Debug64|Any CPU
 		{2B453AB5-AD34-42AA-9E8D-722923513EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B453AB5-AD34-42AA-9E8D-722923513EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66033368-38DC-48A5-995A-98A2A46CD3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66033368-38DC-48A5-995A-98A2A46CD3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66033368-38DC-48A5-995A-98A2A46CD3B5}.Debug64|Any CPU.ActiveCfg = Debug|Any CPU
+		{66033368-38DC-48A5-995A-98A2A46CD3B5}.Debug64|Any CPU.Build.0 = Debug|Any CPU
+		{66033368-38DC-48A5-995A-98A2A46CD3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66033368-38DC-48A5-995A-98A2A46CD3B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

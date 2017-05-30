@@ -62,10 +62,12 @@ namespace PassiveBee
             //GH_Brep inBrep = inBreps[0];
 
             var HBNames = new List<string>();
+            var HBTypes = new List<HBType>();
 
             foreach (var item in HBObjects)
             {
-                HBNames.Add(item.name);
+                HBNames.Add(item.Name);
+                HBTypes.Add(item.ObjectType);
             }
             
             
@@ -109,7 +111,7 @@ namespace PassiveBee
             
             //string jsonStrings = JsonConvert.SerializeObject(HBObjects);
 
-            //DA.SetDataList(0, HBIDs);
+            DA.SetDataList(0, HBTypes);
             //DA.SetData(1, backFromPython);
             DA.SetDataList(2, HBNames);
 
@@ -139,7 +141,7 @@ namespace PassiveBee
             get { return new Guid("{92bd1f3e-02e8-4f51-9a5f-8d9753dfde00}"); }
         }
 
-        private IList<dynamic> callFromHBHive(List<GH_Brep> inBreps)
+        private List<HBObject> callFromHBHive(List<GH_Brep> inBreps)
         {
             var HBIDs = new List<string>();
             foreach (var item in inBreps)
@@ -156,11 +158,8 @@ namespace PassiveBee
 
         }
 
-        private IList<dynamic> getHBObjects(List<string> HBIDs)
+        private List<HBObject> getHBObjects(List<string> HBIDs)
         {
-            //HBID = "['Basekey']['key']"
-            //string HBIDsString = string.Join("','", HBIDs.ToArray());
-            //HBIDsString = "['" + HBIDsString + "']"; //array string for python
 
             var pyRun = Rhino.Runtime.PythonScript.Create();
             pyRun.SetVariable("HBIDs", HBIDs.ToArray());
@@ -171,39 +170,22 @@ for HBID in HBIDs:
     baseKey, key = HBID.split('#')[0], '#'.join(HBID.split('#')[1:])
     PyHBObjects.append(sc.sticky['HBHive'][baseKey][key]);
 ";
-            //pyScript += "import scriptcontext as sc;";
-            //pyScript += "PyHBObjects=[];";
-            ////pyScript += "for HBID in HBIDs:";
-            //pyScript += string.Format(" PyHBObjects.append(sc.sticky['HBHive']{0});", HBIDs.First());
-            //pyScript += " PyHBObjects.append(sc.sticky['HBHive']HBID);";
+
             pyRun.ExecuteScript(pyScript);
-            var HBObjects = pyRun.GetVariable("PyHBObjects") as IList<dynamic>;
+            var PyHBObjects = pyRun.GetVariable("PyHBObjects") as IList<dynamic>;
             //todo: convert IList to List
+
+            var HBObjects = new List<HBObject>();
+
+            foreach (var item in PyHBObjects)
+            {
+                var HBObject = new HBObject(item);
+                HBObjects.Add(HBObject);
+            }
+
 
             return HBObjects;
         }
-
-        //private IList<dynamic> getHBObjects(List<string> HBIDs)
-        //{
-        //    //HBID = "['Basekey']['key']"
-        //    string HBIDsString = string.Join("','", HBIDs.ToArray());
-        //    HBIDsString = "['" + HBIDsString + "']"; //array string for python
-
-        //    var pyRun = Rhino.Runtime.PythonScript.Create();
-        //    string pyScript = "";
-        //    pyScript += "import scriptcontext as sc;";
-        //    pyScript += "PyHBObjects=[];";
-        //    pyScript += string.Format("HBIDs={0};", HBIDsString);
-        //    //pyScript += "for HBID in HBIDs:";
-        //    pyScript += string.Format(" PyHBObjects.append(sc.sticky['HBHive']{0});", HBIDs.First());
-        //    pyScript += " PyHBObjects.append(sc.sticky['HBHive']HBID);";
-        //    pyRun.ExecuteScript(pyScript);
-        //    var HBObjects = pyRun.GetVariable("PyHBObjects") as IList<dynamic>;
-        //    //todo: convert IList to List
-
-        //    return HBObjects;
-        //}
-
 
     }
 }

@@ -11,8 +11,8 @@ namespace PassiveBee
         public int UnitSystem = 0;
         public int Scope = 0;
         public int DimensionsVisualizedGeometry = 0;
-        public object[] ProjectData;
-        public object[] Variants;
+        //public object[] ProjectData;
+        //public object[] Variants;
 
 
     }

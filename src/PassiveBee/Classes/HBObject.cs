@@ -6,9 +6,18 @@ using System.Text;
 
 namespace PassiveBee
 {
-    //HBObject in C#
-    class HBObject
+
+    public enum HBType
     {
+        HBZone,
+        HBSurface,
+        nonHBObject
+
+    }
+    //HBObject in C#
+    public class HBObject
+    {
+        //Name
         private string name;
 
         public string Name
@@ -17,27 +26,49 @@ namespace PassiveBee
             set { name = value; }
         }
 
-        public HBObject(GH_Brep inBrep)
+        //ObjectType
+        private HBType objectType;
+
+        public HBType ObjectType
         {
+            get { return objectType; }
+            set { objectType = value; }
+        }
+
+
+
+
+        public HBObject(dynamic inObject)
+        {
+            this.name = inObject.name;
+            this.objectType = getHBType(inObject);
 
         }
 
-        private dynamic mapPyObject(GH_Brep inBrep)
+        private HBType getHBType(dynamic inObject)
         {
-            var HBID = (inBrep.Value.UserDictionary["HBID"] as string).Split('#');
-            string formatedHBID = string.Format("['{0}']['{1}']", HBID[0], HBID[1]);
+            string type = inObject.objectType;
+            if (type == "HBZone")
+            {
+                return HBType.HBZone;
+            }
+            else if (type == "HBSurface")
+            {
+                return HBType.HBSurface;
+            }
+            else
+            {
+                return HBType.nonHBObject;
+            }
 
-            var pyRun = Rhino.Runtime.PythonScript.Create();
-            string pyScript = "";
-            pyScript += "import scriptcontext as sc;";
-            pyScript += "PyHBObjects=[];";
-            //pyScript += "for HBS in HBO.surfaces:";
-            pyScript += string.Format(" PyHBObjects.append(sc.sticky['HBHive']{0});", formatedHBID);
-            pyRun.ExecuteScript(pyScript);
-            var HBObjects = pyRun.GetVariable("PyHBObjects") as IList<dynamic>;
 
-            return HBObjects;
         }
+
+
+
+        
+
+
 
     }
 }
