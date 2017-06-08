@@ -75,8 +75,10 @@
     <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\HBObject.cs" />
+    <Compile Include="Classes\HBZone.cs" />
     <Compile Include="Classes\HBSurface.cs" />
+    <Compile Include="Classes\PyBase.cs" />
+    <Compile Include="Classes\Types.cs" />
     <Compile Include="Classes\WUFIplusProject.cs" />
     <Compile Include="PassiveBeeComponent.cs" />
     <Compile Include="PassiveBeeInfo.cs" />

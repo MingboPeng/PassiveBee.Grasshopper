@@ -13,7 +13,7 @@ using System.Dynamic;
 namespace PassiveBee.test
 {
     [TestClass]
-    public class UnitTest1
+    public class HB2PB
     {
 
         public dynamic setPyObject(string name, string type)
@@ -39,7 +39,7 @@ namespace PassiveBee.test
             var PyHBObject = setPyObject(objName, objType);
 
 
-            var HBObject = new HBObject(PyHBObject);
+            var HBObject = new HBZone(PyHBObject);
             Assert.AreEqual("zone_1", HBObject.Name);
         }
 
@@ -53,7 +53,7 @@ namespace PassiveBee.test
 
 
             //Act
-            var HBObject = new HBObject(PyHBObject);
+            var HBObject = new HBZone(PyHBObject);
             var expectedResult = HBType.HBZone;
             var acturalResult = HBObject.ObjectType;
 
@@ -71,7 +71,7 @@ namespace PassiveBee.test
 
 
             //Act
-            var HBObject = new HBObject(PyHBObject);
+            var HBObject = new HBZone(PyHBObject);
             var expectedResult = HBType.nonHBObject;
             var acturalResult = HBObject.ObjectType;
 

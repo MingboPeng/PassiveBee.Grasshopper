@@ -32,7 +32,7 @@ namespace PassiveBee
         /// </summary>
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
         {
-            pManager.AddBrepParameter("Surfaces", "Srfs","Envelope surfaces",GH_ParamAccess.list);
+            pManager.AddBrepParameter("Surfaces", "HBZone","Envelope surfaces",GH_ParamAccess.list);
             pManager[0].DataMapping = GH_DataMapping.Flatten;
         }
 
@@ -57,63 +57,23 @@ namespace PassiveBee
             var inBreps = new List <GH_Brep>();
 
             if(!DA.GetDataList(0, inBreps))return;
-            var HBObjects = callFromHBHive(inBreps);
-
-            //GH_Brep inBrep = inBreps[0];
-
+            var HBObjects = PyBase.CallFromHBHive(inBreps);
+            
             var HBNames = new List<string>();
             var HBTypes = new List<HBType>();
+            var SrfBreps = new List<Brep>();
 
             foreach (var item in HBObjects)
             {
+                SrfBreps.AddRange(item.Surfaces.Select(_ => _.Geometry));
                 HBNames.Add(item.Name);
                 HBTypes.Add(item.ObjectType);
             }
             
-            
-
-
-            //var pyRun = Rhino.Runtime.PythonScript.Create();
-            //string pyScript = "";
-            //pyScript += "import scriptcontext as sc;";
-            //pyScript += "PyHBObjects=[];";
-            ////pyScript += "for HBS in HBO.surfaces:";
-            //pyScript += string.Format(" PyHBObjects.append(sc.sticky['HBHive']{0});", formatedHBID);
-            ////pyScript += "points=[];";
-
-
-            ////pyScript += "\nif HBO.objectType == 'HBZone':";
-            ////pyScript += "\n for HBS in HBO.surfaces:";
-            ////pyScript += "   points.append(HBS.extractPoints(1, True))";
-
-            
-
-            //pyRun.ExecuteScript(pyScript);
-            //var HBObjects = pyRun.GetVariable("PyHBObjects") as IList<dynamic>;
-
-            //var backFromPython = pyRun.GetVariable("points") as IList<object>;
-            //var backFromPython = HBObjects.GetType().GetProperties();
-            //var firstItem = backFromPython[0] as IList<object>;
-            //var firstPt = firstItem[0];
-
-            //var HBObjects = new List<object>(PyHBObjects);
-            
-
-            //dynamic HBObject = HBObjects.First().name;
-
-
-
-            //if (backFromPython !=null)
-            //{
-            //    //var PassiveBee = new PassiveBeeObject();
-            //    //PassiveBee.WriteWufiXml("tet1");
-            //}
-            
-            //string jsonStrings = JsonConvert.SerializeObject(HBObjects);
 
             DA.SetDataList(0, HBTypes);
-            //DA.SetData(1, backFromPython);
-            DA.SetDataList(2, HBNames);
+            DA.SetData(1, HBTypes);
+            DA.SetDataList(2, SrfBreps);
 
         }
 
@@ -141,51 +101,6 @@ namespace PassiveBee
             get { return new Guid("{92bd1f3e-02e8-4f51-9a5f-8d9753dfde00}"); }
         }
 
-        private List<HBObject> callFromHBHive(List<GH_Brep> inBreps)
-        {
-            var HBIDs = new List<string>();
-            foreach (var item in inBreps)
-            {
-                //todo: if null
-                //todo: check if HBID existed
-                var HBID = item.Value.UserDictionary["HBID"] as string;
-                //string formatedHBID = string.Format("['{0}']['{1}']", HBID[0], HBID[1]);
-                HBIDs.Add(HBID);
-            }
-
-            var HBObjects = getHBObjects(HBIDs);
-            return HBObjects;
-
-        }
-
-        private List<HBObject> getHBObjects(List<string> HBIDs)
-        {
-
-            var pyRun = Rhino.Runtime.PythonScript.Create();
-            pyRun.SetVariable("HBIDs", HBIDs.ToArray());
-            string pyScript = @"
-import scriptcontext as sc;
-PyHBObjects=[];
-for HBID in HBIDs:
-    baseKey, key = HBID.split('#')[0], '#'.join(HBID.split('#')[1:])
-    PyHBObjects.append(sc.sticky['HBHive'][baseKey][key]);
-";
-
-            pyRun.ExecuteScript(pyScript);
-            var PyHBObjects = pyRun.GetVariable("PyHBObjects") as IList<dynamic>;
-            //todo: convert IList to List
-
-            var HBObjects = new List<HBObject>();
-
-            foreach (var item in PyHBObjects)
-            {
-                var HBObject = new HBObject(item);
-                HBObjects.Add(HBObject);
-            }
-
-
-            return HBObjects;
-        }
-
+        
     }
 }
