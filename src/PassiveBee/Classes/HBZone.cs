@@ -50,8 +50,8 @@ namespace PassiveBee
 
         public HBZone(dynamic inObject)
         {
-            this._ID = Guid.Parse(inObject.ID);
-            this._Name = inObject.name;
+            this.ID = Guid.Parse(inObject.ID);
+            this.Name = inObject.name;
             //convert HBSurfaces
             
             var surfaces = inObject.surfaces as IList<dynamic>;
@@ -61,7 +61,7 @@ namespace PassiveBee
                 HBSurfaces.Add(new HBSurface(item));
             }
 
-            this._Surfaces = HBSurfaces;
+            this.Surfaces = HBSurfaces;
             
 
         }

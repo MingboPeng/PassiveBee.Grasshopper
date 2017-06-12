@@ -19,4 +19,9 @@ namespace PassiveBee
         Ground,
         Adiabatic
     }
+
+    public enum ExtractPtsMethod
+    {
+
+    }
 }

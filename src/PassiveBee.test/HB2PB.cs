@@ -7,8 +7,7 @@ using IronPython.Hosting;
 using Microsoft.Scripting;
 using Microsoft.Scripting.Hosting;
 using System.Dynamic;
-
-
+using System.Collections.Generic;
 
 namespace PassiveBee.test
 {
@@ -77,6 +76,20 @@ namespace PassiveBee.test
 
             //Assert
             Assert.AreEqual(expectedResult, acturalResult);
+        }
+
+        [TestMethod]
+        public void TestListReverse()
+        {
+            //Assemble
+            var old = new List<int>() { 1, 2, 3 };
+            
+            //Act
+            old.Reverse();
+
+            //Assert
+            var expectedResult = 3;
+            Assert.AreEqual(expectedResult, old[0]);
         }
     }
 }

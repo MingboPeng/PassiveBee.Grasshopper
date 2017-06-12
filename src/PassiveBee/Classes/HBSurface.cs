@@ -10,13 +10,7 @@ namespace PassiveBee
     public class HBSurface
     {
         //ID
-        private Guid _ID;
-
-        public Guid ID
-        {
-            get { return _ID; }
-            set { _ID = value; }
-        }
+        private Guid ID;
 
         //Name
         private string _Name;
@@ -55,6 +49,7 @@ namespace PassiveBee
         }
 
 
+        //Geometry from Rhino
         private Brep _Geometry;
 
         public Brep Geometry
@@ -63,19 +58,32 @@ namespace PassiveBee
             set { _Geometry = value; }
         }
 
+        //Face normal
+        private Vector3d _NormalVector;
+
+        public Vector3d NormalVector
+        {
+            get
+            {
+                _NormalVector = this.Geometry.GetSrfCenPtandNormal().Normal;
+                return _NormalVector;
+            }
+            set { _NormalVector = value; }
+        }
+
 
         //Constructor
         public HBSurface(dynamic inObject)
         {
-            this._ID = Guid.Parse(inObject.ID);
-            this._Name = inObject.name;
-            this._ObjectType = HBType.HBSurface;
-            this._BC = getBC(inObject);
-            this._HasChild = inObject.hasChild;
-            this._Geometry = inObject.geometry;
+            this.ID = Guid.Parse(inObject.ID);
+            this.Name = inObject.name;
+            this.ObjectType = HBType.HBSurface;
+            this.BC = GetBC(inObject);
+            this.HasChild = inObject.hasChild;
+            this.Geometry = inObject.geometry;
         }
 
-        private EPBoundaryCondition getBC(dynamic inObject)
+        private EPBoundaryCondition GetBC(dynamic inObject)
         {
             string type = ((string) inObject.BC).ToUpper();
             if (type == "SURFACE")
@@ -95,5 +103,9 @@ namespace PassiveBee
                 return EPBoundaryCondition.Adiabatic;
             }
         }
+
+
+        
+
     }
 }
