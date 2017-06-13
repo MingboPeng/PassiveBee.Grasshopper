@@ -13,8 +13,8 @@ namespace PassiveBee
         {
             
             // check the order if clock-wise
-            var vector0 = new Vector3d(Pts[1] - Pts[0]);
-            var vector1 = new Vector3d(Pts[-1] - Pts[0]);
+            var vector0 = new Vector3d(Pts[1] - Pts.First());
+            var vector1 = new Vector3d(Pts.Last() - Pts.First());
 
             var ptsNormal = Vector3d.CrossProduct(vector0, vector1);
 
@@ -53,7 +53,8 @@ namespace PassiveBee
             foreach (var curve in joinedCurves)
             {
                 //var segments = curve.DuplicateSegments().ToList();
-                var originalPoints = curve.Discontinuities();
+                var originalPoints = new List<Point3d>() { curve.PointAtStart };
+                originalPoints.AddRange(curve.Discontinuities());
                 var isAntiClockWise = IsAntiClockWise(originalPoints, normal);
                 
                 if (isAntiClockWise)

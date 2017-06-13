@@ -23,6 +23,7 @@ namespace PassiveBee.test
             dynamic myObject = new ExpandoObject();
             myObject.name = name;
             myObject.objectType = type;
+            myObject.ID = (new Guid()).ToString();
 
             scope.SetVariable(variableName, myObject);
             dynamic PyHBObject = scope.GetVariable(variableName);
@@ -60,23 +61,6 @@ namespace PassiveBee.test
             Assert.AreEqual(expectedResult, acturalResult);
         }
 
-        [TestMethod]
-        public void TestHBObjectType_nonHBType()
-        {
-            //Assemble
-            string objName = "zone_1";
-            string objType = "somethingelse";
-            var PyHBObject = setPyObject(objName, objType);
-
-
-            //Act
-            var HBObject = new HBZone(PyHBObject);
-            var expectedResult = HBType.nonHBObject;
-            var acturalResult = HBObject.ObjectType;
-
-            //Assert
-            Assert.AreEqual(expectedResult, acturalResult);
-        }
 
         [TestMethod]
         public void TestListReverse()
@@ -91,5 +75,24 @@ namespace PassiveBee.test
             var expectedResult = 3;
             Assert.AreEqual(expectedResult, old[0]);
         }
+
+        [TestMethod]
+        public void TestWriteXml()
+        {
+            //Assemble
+            var wufiModel = new WufiModel();
+            //var old = new List<int>() { 1, 2, 3 };
+
+            //Act
+            var ifXmlExist = File.Exists(@"C:\WUFI\test.xml");
+            //old.Reverse();
+
+            //Assert
+            var acturalResult = true;
+            var expectedResult = ifXmlExist;
+            Assert.AreEqual(expectedResult, acturalResult);
+        }
+
+
     }
 }

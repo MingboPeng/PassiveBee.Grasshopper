@@ -63,17 +63,22 @@ namespace PassiveBee
             var HBTypes = new List<HBType>();
             var SrfBreps = new List<Brep>();
 
+            var points = new List<Point3d>();
+
             foreach (var item in HBObjects)
             {
-                SrfBreps.AddRange(item.Surfaces.Select(_ => _.Geometry));
-                HBNames.Add(item.Name);
-                HBTypes.Add(item.ObjectType);
+                var wufiModel = new WufiModel(item);
+                //points = item.Surfaces.First().ExtractPoints(true);
+                points.AddRange(wufiModel.Vertices);
+                //SrfBreps.AddRange(item.Surfaces.Select(_ => _.Geometry));
+                //HBNames.Add(item.Name);
+                //HBTypes.Add(item.ObjectType);
             }
             
 
-            DA.SetDataList(0, HBTypes);
-            DA.SetData(1, HBTypes);
-            DA.SetDataList(2, SrfBreps);
+            DA.SetDataList(2, points);
+            //DA.SetData(1, HBTypes);
+            //DA.SetDataList(2, SrfBreps);
 
         }
 

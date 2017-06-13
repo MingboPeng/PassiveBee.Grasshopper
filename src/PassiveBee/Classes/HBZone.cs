@@ -1,4 +1,5 @@
 ﻿using Grasshopper.Kernel.Types;
+using Microsoft.CSharp.RuntimeBinder;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -48,18 +49,31 @@ namespace PassiveBee
 
 
 
-        public HBZone(dynamic inObject)
+        public HBZone(object inObject)
         {
-            this.ID = Guid.Parse(inObject.ID);
-            this.Name = inObject.name;
+            var dyObj = inObject as dynamic;
+
+            this.ID = Guid.Parse(dyObj.ID);
+            this.Name = dyObj.name;
+            this.ObjectType = HBType.HBZone;
             //convert HBSurfaces
-            
-            var surfaces = inObject.surfaces as IList<dynamic>;
+
             var HBSurfaces = new List<HBSurface>();
-            foreach (var item in surfaces)
+            try
             {
-                HBSurfaces.Add(new HBSurface(item));
+                var surfaces = dyObj.surfaces as IList<dynamic>;
+                
+                foreach (var item in surfaces)
+                {
+                    HBSurfaces.Add(new HBSurface(item));
+                }
             }
+            catch (RuntimeBinderException)
+            {
+
+                //throw;
+            }
+            
 
             this.Surfaces = HBSurfaces;
             

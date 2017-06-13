@@ -72,7 +72,10 @@ namespace PassiveBee
             return (centerPt, normalVector);
         }
 
-
+        //public static bool HasProp(this dynamic inObj)
+        //{
+        //    return true;
+        //}
 
 
 
